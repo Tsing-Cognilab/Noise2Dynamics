@@ -171,10 +171,12 @@ def publish(root, repo=REPO, check_only=False):
         raise RuntimeError('Unexpected release')
     if release['draft'] and release.get('target_commitish') != commit:
         # Retain the existing draft ID/assets, but tag the corrected tool revision.
-        call('api', endpoint, '--method', 'PATCH', '-f', 'target_commitish=' + commit)
+        # GitHub draft updates must preserve tag_name explicitly (see gh release edit).
+        call('api', endpoint, '--method', 'PATCH', '-f', 'tag_name=' + tag,
+             '-f', 'target_commitish=' + commit, '-F', 'draft=true')
         release = json.loads(call('api', endpoint))
-        if release.get('target_commitish') != commit:
-            raise RuntimeError('Draft target commit update was not confirmed')
+        if release.get('target_commitish') != commit or release['tag_name'] != tag or not release['draft']:
+            raise RuntimeError('Draft tag/target update was not confirmed; upload not started')
     progress_path = root / ('upload-progress-' + owner + '.json')
     progress = json.loads(progress_path.read_text()) if progress_path.exists() else {}
     if expected_private and not progress and (root / 'upload-progress.json').exists():
@@ -228,7 +230,9 @@ def publish(root, repo=REPO, check_only=False):
     private = json.loads(call('api', 'repos/' + repo))['private']
     if private != expected_private:
         raise RuntimeError('Repository visibility changed; release not published')
-    call('release', 'edit', tag, '--repo', repo, '--draft=false')
+    release = json.loads(call('api', endpoint))
+    if release['draft']:
+        call('release', 'edit', tag, '--repo', repo, '--tag', tag, '--draft=false')
     release = json.loads(call('api', endpoint))
     if release['draft'] or release['tag_name'] != tag:
         raise RuntimeError('Release publication not confirmed')
