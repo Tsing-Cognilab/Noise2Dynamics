@@ -7,9 +7,9 @@ __pycache__/
 /artifacts/
 /tools/.runtime/
 /.cvm-snapshot.json
-/UPLOAD_COMPLETE.json
-/upload.log
-/upload-progress.json
+/UPLOAD_COMPLETE*.json
+/upload*.log
+/upload-progress*.json
 *.pt
 *.pth
 *.ckpt

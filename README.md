@@ -1,6 +1,8 @@
 # Noise2Dynamics — CVM research code
 
-This private research repository contains the **CVM visual-restoration project**. The repository name is retained for continuity. It does **not** contain the retired N2D latent-dynamics or Dreamer research lines, their datasets, or their checkpoints.
+This repository contains the **CVM visual-restoration project**. The repository name is retained for continuity. It does **not** contain the retired N2D latent-dynamics or Dreamer research lines, their datasets, or their checkpoints.
+
+The two authorized destinations are `Audience2Li/Noise2Dynamics` (personal, private backup) and `Tsing-Cognilab/Noise2Dynamics` (organization, public delivery). They receive the same CVM snapshot and binary assets. Release access follows the visibility of its repository. Upload progress and completion are recorded independently for each destination.
 
 ## Overview
 
@@ -31,7 +33,7 @@ The original folder names are retained so imports and provenance records remain 
 
 ## Data and model assets
 
-Regular Git history contains source code, protocols, configuration files, result records and compact media. Model weights, HDF5 demonstrations, NPZ training caches and compressed source/media bundles are staged separately as private-release assets. **The assets are not yet on GitHub merely because this directory has been prepared.** Upload completion is tracked in the deployment instructions.
+Regular Git history contains source code, protocols, configuration files, result records and compact media. Model weights, HDF5 demonstrations, NPZ training caches and compressed source/media bundles are staged separately as Release assets. **The assets are not yet on GitHub merely because this directory has been prepared.** Upload completion is tracked independently for both destinations in the deployment instructions.
 
 The binary inventory is in `manifests/binary_assets.jsonl`. It identifies each file by its repository-relative destination, size and SHA256. The prepared packages are:
 
@@ -45,7 +47,7 @@ Packages larger than 128 MiB are split into numbered files for upload. This limi
 
 Assets include the actual paired dataset used by the method experiments: the first **24 training demonstrations** and first **4 validation demonstrations** from the official split, with two-frame windows sampled every four control frames. The data manifest and recorded hashes define the split. They are not regenerated from test outcomes.
 
-Upstream policy and restoration assets retain their source URLs and checksums in `task_restore_v1/assets/manifest.json` and `task_restore_external_v1/assets/manifest.json`. Original third-party license files are retained. This private repository does not assign a new license to third-party datasets or weights.
+Upstream policy and restoration assets retain their source URLs and checksums in `task_restore_v1/assets/manifest.json` and `task_restore_external_v1/assets/manifest.json`. Original third-party license files are retained. This repository does not assign a new license to third-party datasets or weights; users remain responsible for observing the original providers' terms. A source-code MIT license should not be read as a blanket commercial license for every dataset or model.
 
 ## Experimental configuration
 
@@ -101,7 +103,7 @@ The per-stage `PROTOCOL.md` files document the corresponding training and evalua
 
 ## Restoring on another machine
 
-1. Clone the private repository and obtain the corresponding private-release packages.
+1. Clone either destination repository and obtain its corresponding Release packages. The personal backup requires authentication.
 2. Restore the binary assets with the provided helper. It verifies uploaded-part and package checksums before safe extraction.
 3. Restore the compatible CVM runtime separately.
 4. Inspect the original protocol files before launching anything.
@@ -116,4 +118,4 @@ Excluded: all old N2D/latent/Dreamer code and outputs outside these directories,
 
 The manuscript, editable figures and final edited submission video under the local `E:\CASIA\12 CVM\CVM2027` directory are maintained separately and are not silently added by the server-only preparation tool.
 
-The intended destination is the user's personal **private** repository `Audience2Li/Noise2Dynamics`. Do not publish it or change visibility without an explicit request.
+The personal `Audience2Li/Noise2Dynamics` repository must remain **private**. The organization `Tsing-Cognilab/Noise2Dynamics` is **public** at the owner's explicit request. The uploader verifies both settings and never changes visibility automatically. Public delivery exposes the project identity and records; consider anonymous-review obligations before sharing it with reviewers.

@@ -180,14 +180,15 @@ def prepare(source, target, templates):
     write_jsonl(target / 'manifests/excluded.jsonl', exclusions)
     generated = {'CVM_REPOSITORY_README.md': 'README.md', 'CVM_GITHUB_上传与恢复说明.md': 'docs/上传与恢复说明.md',
                  'restore_cvm_assets.py': 'tools/restore_assets.py', 'publish_cvm_repository.py': 'tools/publish.py',
-                 'bootstrap_cvm_gh.py': 'tools/bootstrap_gh.py', 'prepare_cvm_repository.py': 'tools/prepare_snapshot.py'}
+                 'bootstrap_cvm_gh.py': 'tools/bootstrap_gh.py', 'prepare_cvm_repository.py': 'tools/prepare_snapshot.py',
+                 'start_cvm_upload.sh': 'tools/start_upload.sh'}
     for name, rel in generated.items():
         dst = target / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(templates / name, dst)
     ignores = ['.git/', '__pycache__/', '*.pyc', '*.lock', '*.partial', '*.tmp',
                '/artifacts/', '/tools/.runtime/', '/.cvm-snapshot.json', '/UPLOAD_COMPLETE.json',
-               '/upload.log', '/upload-progress.json', '*.pt', '*.pth', '*.ckpt', '*.h5', '*.hdf5',
+               '/upload.log', '/upload*.log', '/upload-progress*.json', '/UPLOAD_COMPLETE*.json', '*.pt', '*.pth', '*.ckpt', '*.h5', '*.hdf5',
                '*.npz', '*.npy', '*.tar', '*.gz', '*.zip', '*.zst']
     ignores += ['/' + r['path'] for r in assets if Path(r['path']).suffix not in MODEL | DATA | RESOURCE]
     (target / '.gitignore').write_text('\n'.join(ignores) + '\n', encoding='utf-8')
