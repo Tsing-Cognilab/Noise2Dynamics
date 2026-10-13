@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_gripper_qpos', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['agentview_image', 'robot0_eye_in_hand_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+STEP_PROGRESS task=can condition=shot_read_medium episode=26/50 steps=80/400 success_ever=0 seconds=27.2
+STEP_PROGRESS task=can condition=shot_read_medium episode=26/50 steps=160/400 success_ever=1 seconds=49.7
+STEP_PROGRESS task=can condition=shot_read_medium episode=26/50 steps=240/400 success_ever=1 seconds=71.6
+STEP_PROGRESS task=can condition=shot_read_medium episode=26/50 steps=320/400 success_ever=1 seconds=93.7
+STEP_PROGRESS task=can condition=shot_read_medium episode=26/50 steps=400/400 success_ever=1 seconds=115.9
+EPISODE_DONE task=can condition=shot_read_medium episode=26/50 seed=10025 success=1 seconds=115.9
+STEP_PROGRESS task=can condition=shot_read_medium episode=27/50 steps=80/400 success_ever=0 seconds=23.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=27/50 steps=160/400 success_ever=1 seconds=45.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=27/50 steps=240/400 success_ever=1 seconds=68.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=27/50 steps=320/400 success_ever=1 seconds=90.4
+STEP_PROGRESS task=can condition=shot_read_medium episode=27/50 steps=400/400 success_ever=1 seconds=113.2
+EPISODE_DONE task=can condition=shot_read_medium episode=27/50 seed=10026 success=1 seconds=113.2
+STEP_PROGRESS task=can condition=shot_read_medium episode=28/50 steps=80/400 success_ever=0 seconds=23.5
+STEP_PROGRESS task=can condition=shot_read_medium episode=28/50 steps=160/400 success_ever=1 seconds=45.7
+STEP_PROGRESS task=can condition=shot_read_medium episode=28/50 steps=240/400 success_ever=1 seconds=69.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=28/50 steps=320/400 success_ever=1 seconds=92.7
+STEP_PROGRESS task=can condition=shot_read_medium episode=28/50 steps=400/400 success_ever=1 seconds=115.6
+EPISODE_DONE task=can condition=shot_read_medium episode=28/50 seed=10027 success=1 seconds=115.6
+STEP_PROGRESS task=can condition=shot_read_medium episode=29/50 steps=80/400 success_ever=0 seconds=24.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=29/50 steps=160/400 success_ever=1 seconds=46.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=29/50 steps=240/400 success_ever=1 seconds=69.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=29/50 steps=320/400 success_ever=1 seconds=92.4
+STEP_PROGRESS task=can condition=shot_read_medium episode=29/50 steps=400/400 success_ever=1 seconds=114.8
+EPISODE_DONE task=can condition=shot_read_medium episode=29/50 seed=10028 success=1 seconds=114.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=30/50 steps=80/400 success_ever=0 seconds=23.2
+STEP_PROGRESS task=can condition=shot_read_medium episode=30/50 steps=160/400 success_ever=1 seconds=47.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=30/50 steps=240/400 success_ever=1 seconds=70.6
+STEP_PROGRESS task=can condition=shot_read_medium episode=30/50 steps=320/400 success_ever=1 seconds=93.1
+STEP_PROGRESS task=can condition=shot_read_medium episode=30/50 steps=400/400 success_ever=1 seconds=115.5
+EPISODE_DONE task=can condition=shot_read_medium episode=30/50 seed=10029 success=1 seconds=115.5
+TASK_RESTORE_EVAL_FINISHED task=can condition=shot_read_medium successes=5/5

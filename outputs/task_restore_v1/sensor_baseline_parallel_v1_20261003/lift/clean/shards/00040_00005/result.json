@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "lift",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "Lift",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "39b1585bc48250c9fa5e17220861529b4d16e11ffd91df802472d8e447392c0b",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 40,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 1.0,
+  "final_success_rate": 0.6,
+  "successes": 5,
+  "episodes": 5,
+  "mean_episode_seconds": 109.48864248474129,
+  "current_run_seconds": 558.6792606129311,
+  "rows": [
+    {
+      "seed": 10040,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 35,
+      "steps": 400,
+      "wall_seconds": 115.60930710588582,
+      "inference_seconds": 33.200116608757526,
+      "task": "lift",
+      "condition": "clean",
+      "initial_state_sha256": "0ee43ffd377d0d989bd38d4b86a8ae2fbbda5c185f33ab5d52f48dd6939f0a1e",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "6b9a7b2f55f5045dd8834d69b0db5a8274c7a8e06e06fb874f7e34cf4ad8d0f3",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10041,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 49,
+      "steps": 400,
+      "wall_seconds": 109.04517370904796,
+      "inference_seconds": 31.90594981214963,
+      "task": "lift",
+      "condition": "clean",
+      "initial_state_sha256": "a5ee73688bc6b68374ac01154491229275d4010cc9d4d2f84ed4fb51ace9d995",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "b5e12a7f65f89aa59994a8d1da68be1de85f3bee82baaba6de843c3d1f6b19d8",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10042,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 38,
+      "steps": 400,
+      "wall_seconds": 108.61234843079001,
+      "inference_seconds": 31.428083759499714,
+      "task": "lift",
+      "condition": "clean",
+      "initial_state_sha256": "1b84df54f5c5a1ebde17fe892749306bcfec0bc0698908d71715ebcb936b6d5f",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "6547b121d5766674a3d1b4753506ecf36b9b3b63edc854ba42303cd8af21b16e",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10043,
+      "success_ever": true,
+      "success_final": false,
+      "first_success_step": 46,
+      "steps": 400,
+      "wall_seconds": 107.16190398600884,
+      "inference_seconds": 30.320952501846477,
+      "task": "lift",
+      "condition": "clean",
+      "initial_state_sha256": "b39294cbe2006e909755f40518dee95b21446e3cab2e967e29b65b0d6b7e0eed",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "4bea7ad595fceb55bcd2c4af835fd49c7bdf1541d5a556c5b5ce504f9fd1a79a",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10044,
+      "success_ever": true,
+      "success_final": false,
+      "first_success_step": 47,
+      "steps": 400,
+      "wall_seconds": 107.0144791919738,
+      "inference_seconds": 31.0019034629222,
+      "task": "lift",
+      "condition": "clean",
+      "initial_state_sha256": "1287fc9aded8829eabebbf90b854c80c0b9001caee5c36180798b8d3c363ac99",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "fb077becb68de4ec43a08b4b8cc03da5890688e5cc16479bc86c65f2fdf4e270",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    }
+  ]
+}

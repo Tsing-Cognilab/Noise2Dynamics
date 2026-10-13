@@ -1,0 +1,33 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+FEATURE_PROGRESS task=can seed=3073 update=1/2000 image=0.14145 feature=0.020803
+FEATURE_PROGRESS task=can seed=3073 update=100/2000 image=0.11775 feature=0.020870
+FEATURE_PROGRESS task=can seed=3073 update=200/2000 image=0.06355 feature=0.004954
+FEATURE_PROGRESS task=can seed=3073 update=300/2000 image=0.05341 feature=0.002138
+FEATURE_PROGRESS task=can seed=3073 update=400/2000 image=0.04832 feature=0.001449
+FEATURE_PROGRESS task=can seed=3073 update=500/2000 image=0.04967 feature=0.000711
+FEATURE_PROGRESS task=can seed=3073 update=600/2000 image=0.04693 feature=0.000727
+FEATURE_PROGRESS task=can seed=3073 update=700/2000 image=0.04412 feature=0.000632
+FEATURE_PROGRESS task=can seed=3073 update=800/2000 image=0.03754 feature=0.000439
+FEATURE_PROGRESS task=can seed=3073 update=900/2000 image=0.04265 feature=0.000452
+FEATURE_PROGRESS task=can seed=3073 update=1000/2000 image=0.04355 feature=0.000511
+FEATURE_PROGRESS task=can seed=3073 update=1100/2000 image=0.04196 feature=0.000511
+FEATURE_PROGRESS task=can seed=3073 update=1200/2000 image=0.03450 feature=0.000311
+FEATURE_PROGRESS task=can seed=3073 update=1300/2000 image=0.03365 feature=0.000545
+FEATURE_PROGRESS task=can seed=3073 update=1400/2000 image=0.03193 feature=0.000312
+FEATURE_PROGRESS task=can seed=3073 update=1500/2000 image=0.07833 feature=0.010909
+FEATURE_PROGRESS task=can seed=3073 update=1600/2000 image=0.03438 feature=0.000624
+FEATURE_PROGRESS task=can seed=3073 update=1700/2000 image=0.03605 feature=0.000685
+FEATURE_PROGRESS task=can seed=3073 update=1800/2000 image=0.03264 feature=0.000428
+FEATURE_PROGRESS task=can seed=3073 update=1900/2000 image=0.03491 feature=0.000458
+FEATURE_PROGRESS task=can seed=3073 update=2000/2000 image=0.03122 feature=0.000419
+FEATURE_TRAIN_FINISHED task=can seed=3073

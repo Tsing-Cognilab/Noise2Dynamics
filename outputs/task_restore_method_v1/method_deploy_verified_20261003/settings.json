@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    "can",
+    "square"
+  ],
+  "seed": 3072,
+  "updates": 100,
+  "batch_size": 16,
+  "train_demos": 1,
+  "valid_demos": 1,
+  "stride": 4,
+  "episodes": 1,
+  "start_seed": 20000,
+  "max_steps": 8,
+  "shard_size": 1,
+  "sources": {
+    "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+    "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+    "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+    "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+    "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+    "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+  },
+  "smoke": true,
+  "groups": [
+    [
+      "original",
+      "clean"
+    ],
+    [
+      "original",
+      "lowlight"
+    ],
+    [
+      "exposure_oracle",
+      "lowlight"
+    ],
+    [
+      "image",
+      "clean"
+    ],
+    [
+      "image",
+      "lowlight"
+    ],
+    [
+      "decision",
+      "clean"
+    ],
+    [
+      "decision",
+      "lowlight"
+    ]
+  ]
+}

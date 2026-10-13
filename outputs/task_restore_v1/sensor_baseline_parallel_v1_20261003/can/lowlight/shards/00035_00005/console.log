@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['agentview_image', 'robot0_eye_in_hand_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+STEP_PROGRESS task=can condition=lowlight episode=36/50 steps=80/400 success_ever=0 seconds=26.9
+STEP_PROGRESS task=can condition=lowlight episode=36/50 steps=160/400 success_ever=0 seconds=49.1
+STEP_PROGRESS task=can condition=lowlight episode=36/50 steps=240/400 success_ever=0 seconds=71.4
+STEP_PROGRESS task=can condition=lowlight episode=36/50 steps=320/400 success_ever=0 seconds=93.9
+STEP_PROGRESS task=can condition=lowlight episode=36/50 steps=400/400 success_ever=0 seconds=115.5
+EPISODE_DONE task=can condition=lowlight episode=36/50 seed=10035 success=0 seconds=115.5
+STEP_PROGRESS task=can condition=lowlight episode=37/50 steps=80/400 success_ever=0 seconds=23.0
+STEP_PROGRESS task=can condition=lowlight episode=37/50 steps=160/400 success_ever=0 seconds=44.7
+STEP_PROGRESS task=can condition=lowlight episode=37/50 steps=240/400 success_ever=0 seconds=66.6
+STEP_PROGRESS task=can condition=lowlight episode=37/50 steps=320/400 success_ever=0 seconds=88.3
+STEP_PROGRESS task=can condition=lowlight episode=37/50 steps=400/400 success_ever=0 seconds=111.2
+EPISODE_DONE task=can condition=lowlight episode=37/50 seed=10036 success=0 seconds=111.2
+STEP_PROGRESS task=can condition=lowlight episode=38/50 steps=80/400 success_ever=0 seconds=23.2
+STEP_PROGRESS task=can condition=lowlight episode=38/50 steps=160/400 success_ever=0 seconds=45.5
+STEP_PROGRESS task=can condition=lowlight episode=38/50 steps=240/400 success_ever=0 seconds=67.3
+STEP_PROGRESS task=can condition=lowlight episode=38/50 steps=320/400 success_ever=0 seconds=89.6
+STEP_PROGRESS task=can condition=lowlight episode=38/50 steps=400/400 success_ever=0 seconds=112.1
+EPISODE_DONE task=can condition=lowlight episode=38/50 seed=10037 success=0 seconds=112.1
+STEP_PROGRESS task=can condition=lowlight episode=39/50 steps=80/400 success_ever=0 seconds=22.8
+STEP_PROGRESS task=can condition=lowlight episode=39/50 steps=160/400 success_ever=0 seconds=45.5
+STEP_PROGRESS task=can condition=lowlight episode=39/50 steps=240/400 success_ever=0 seconds=67.1
+STEP_PROGRESS task=can condition=lowlight episode=39/50 steps=320/400 success_ever=0 seconds=89.8
+STEP_PROGRESS task=can condition=lowlight episode=39/50 steps=400/400 success_ever=0 seconds=111.6
+EPISODE_DONE task=can condition=lowlight episode=39/50 seed=10038 success=0 seconds=111.6
+STEP_PROGRESS task=can condition=lowlight episode=40/50 steps=80/400 success_ever=0 seconds=23.4
+STEP_PROGRESS task=can condition=lowlight episode=40/50 steps=160/400 success_ever=0 seconds=46.2
+STEP_PROGRESS task=can condition=lowlight episode=40/50 steps=240/400 success_ever=0 seconds=68.6
+STEP_PROGRESS task=can condition=lowlight episode=40/50 steps=320/400 success_ever=0 seconds=89.9
+STEP_PROGRESS task=can condition=lowlight episode=40/50 steps=400/400 success_ever=0 seconds=111.4
+EPISODE_DONE task=can condition=lowlight episode=40/50 seed=10039 success=0 seconds=111.4
+TASK_RESTORE_EVAL_FINISHED task=can condition=lowlight successes=0/5

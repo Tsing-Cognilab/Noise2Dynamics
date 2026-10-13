@@ -1,0 +1,115 @@
+{
+  "protocol": {
+    "task": "can",
+    "condition": "shot_read_medium",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.008,
+      "read": 0.012,
+      "correlated": false
+    },
+    "episodes": 4,
+    "start_seed": 10000,
+    "max_steps": 80,
+    "checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "PickPlaceCan",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "c7fac36676e480543c09f0bd88d5aad8cd77b91dad1c7c073dc6bda202ee857f",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 2,
+    "episode_count": 1,
+    "video_episodes": 0,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.0,
+  "final_success_rate": 0.0,
+  "successes": 0,
+  "episodes": 1,
+  "mean_episode_seconds": 28.104140636045486,
+  "current_run_seconds": 32.750526221934706,
+  "rows": [
+    {
+      "seed": 10002,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 80,
+      "wall_seconds": 28.104140636045486,
+      "inference_seconds": 6.539997671032324,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "c7d8fe59800d409acec05ccc2a51a5fd2de9e474954c93658138626479fe5192",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "b5fc63aea6b3aa591a05eadf068a509de156c07b0cb833a93f114f08e8bce3ff",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

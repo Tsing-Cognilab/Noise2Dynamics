@@ -1,0 +1,19 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name NutAssemblySquare
+Action size is 7
+EXTERNAL_EPISODE_DONE task=square arm=feature condition=exposure_shift seed=30030 ever=0 final=0 seconds=113.8
+EXTERNAL_EPISODE_DONE task=square arm=feature condition=exposure_shift seed=30031 ever=0 final=0 seconds=111.9
+EXTERNAL_EPISODE_DONE task=square arm=feature condition=exposure_shift seed=30032 ever=1 final=1 seconds=108.8
+EXTERNAL_EPISODE_DONE task=square arm=feature condition=exposure_shift seed=30033 ever=0 final=0 seconds=112.7
+EXTERNAL_EPISODE_DONE task=square arm=feature condition=exposure_shift seed=30034 ever=1 final=1 seconds=111.2
+EXTERNAL_EVAL_SHARD_FINISHED task=square arm=feature

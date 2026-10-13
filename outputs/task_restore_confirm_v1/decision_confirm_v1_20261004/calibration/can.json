@@ -1,0 +1,61 @@
+{
+  "spec": {
+    "task": "can",
+    "calibration": {
+      "seed": 880031,
+      "batches": 4,
+      "batch_size": 16,
+      "decision_weight": 0.1,
+      "rule": "median initial-gradient ratio to 0.1 * decision loss; train split only"
+    },
+    "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+    "base_sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "confirm_sources": {
+      "contract.py": "a27afeb05b5e91a06c2a512335165d8fda6c65f0fc4c92dbce4aeda56aa0492c",
+      "evaluate_confirm.py": "62676164686e6d436a0a3303f79f2e3889bbfbbf7465aa952bcf8f383af0e199",
+      "feature_train.py": "e296b4ebb4955453b617955a63ce5a54493b6c9e69c76d002f2238d3643df7fc",
+      "report.py": "d44241d969835dec1f964778fcc094e441887e05daf35c6a8b727bb1603c95ea",
+      "run_confirm.py": "67b328015671c328e396a0241fe23b2f1d5065dd68a9637752e45d2610516db9",
+      "test_confirm.py": "645b2a3e756f12fc9010edc1fe86d050c3f7fc1195251221fac785ee4954d0fb"
+    },
+    "width": 24,
+    "initialization_seed": 3072,
+    "policy_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb"
+  },
+  "weight": 0.32407376877464833,
+  "batches": [
+    {
+      "image_gradient": 0.10083165764808655,
+      "feature_gradient": 0.055180624127388,
+      "decision_gradient": 0.27095869183540344,
+      "candidate_weight": 0.4910395562215425
+    },
+    {
+      "image_gradient": 0.16140007972717285,
+      "feature_gradient": 0.03184046596288681,
+      "decision_gradient": 0.41810914874076843,
+      "candidate_weight": 1.3131376570560107
+    },
+    {
+      "image_gradient": 0.15389664471149445,
+      "feature_gradient": 0.041767265647649765,
+      "decision_gradient": 0.04995235428214073,
+      "candidate_weight": 0.11959689845042931
+    },
+    {
+      "image_gradient": 0.12362363189458847,
+      "feature_gradient": 0.04833875596523285,
+      "decision_gradient": 0.07594404369592667,
+      "candidate_weight": 0.15710798132775416
+    }
+  ],
+  "gradient_ratio_to_image_median": 0.10733544469899131,
+  "interpretation": "train-only initial gradient scale; not selected using closed-loop success"
+}

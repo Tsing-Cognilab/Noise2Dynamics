@@ -1,0 +1,158 @@
+{
+  "protocol": {
+    "task": "can",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 4,
+    "start_seed": 10000,
+    "max_steps": 80,
+    "checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "PickPlaceCan",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "c7fac36676e480543c09f0bd88d5aad8cd77b91dad1c7c073dc6bda202ee857f",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "video_episodes": 0,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0",
+    "parallel_shards": 4
+  },
+  "rows": [
+    {
+      "seed": 10000,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 80,
+      "wall_seconds": 27.35605863411911,
+      "inference_seconds": 6.028765536379069,
+      "task": "can",
+      "condition": "clean",
+      "initial_state_sha256": "3ba9263bd1f83aa1bd5739f7b4d0a1f003975f9d3c5168947ed7d27eb8f0c4bf",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "3596a36bd55d4a8ebac7416412d39ec5b75a1286f87ae1aa4eff20d994a930b7",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10001,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 80,
+      "wall_seconds": 27.63921515084803,
+      "inference_seconds": 6.5350930583663285,
+      "task": "can",
+      "condition": "clean",
+      "initial_state_sha256": "d49c43a3296c8636709e6e9c173b44749a822574bf0422a9255fed7cfa9d82cf",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "ff4de3a5c73d49bdbeb934f660889f7a25b65518c8b008b0a9233d983ef80d68",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10002,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 80,
+      "wall_seconds": 26.949040841078386,
+      "inference_seconds": 6.676610196940601,
+      "task": "can",
+      "condition": "clean",
+      "initial_state_sha256": "c7d8fe59800d409acec05ccc2a51a5fd2de9e474954c93658138626479fe5192",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "b5fc63aea6b3aa591a05eadf068a509de156c07b0cb833a93f114f08e8bce3ff",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10003,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 80,
+      "wall_seconds": 27.0056099970825,
+      "inference_seconds": 6.301107990089804,
+      "task": "can",
+      "condition": "clean",
+      "initial_state_sha256": "381a317cd50b1ea75cf5da2f4a63c377435865673d089a22d5c453354423d334",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "e903e923e84e26e8b4ea9b5d26fbeb47783fb4e0619ddc4177d5f4de56681b64",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ],
+  "episodes": 4,
+  "successes": 0,
+  "success_rate": 0.0,
+  "final_success_rate": 0.0,
+  "mean_episode_seconds": 27.237481155782007
+}

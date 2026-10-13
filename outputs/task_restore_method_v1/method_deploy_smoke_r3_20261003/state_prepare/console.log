@@ -1,0 +1,7 @@
+Created environment with name PickPlaceCan
+Action size is 7
+STATE_BANK_READY task=can episodes=1 sha256=1a97c4af14b1947e07dd7bf2317e1e8e4f33f90c3766ba2bda5cd02c10257176
+Created environment with name NutAssemblySquare
+Action size is 7
+STATE_BANK_READY task=square episodes=1 sha256=1532453fbda6e71afe1ff6c51d633c293700f2a57724585617f28e4ff9bb685f
+TASK_RESTORE_STATE_BANK_FINISHED

@@ -1,0 +1,11 @@
+{
+  "gpus": [
+    "0",
+    "1"
+  ],
+  "workers_per_gpu": 2,
+  "total_workers": 4,
+  "cpu_threads_per_process": 1,
+  "mesa_threads_per_process": 1,
+  "video_episodes": 0
+}

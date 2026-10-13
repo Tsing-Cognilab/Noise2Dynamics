@@ -1,0 +1,19 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+EXTERNAL_EPISODE_DONE task=can arm=image condition=exposure_shift seed=30020 ever=0 final=0 seconds=116.0
+EXTERNAL_EPISODE_DONE task=can arm=image condition=exposure_shift seed=30021 ever=0 final=0 seconds=115.1
+EXTERNAL_EPISODE_DONE task=can arm=image condition=exposure_shift seed=30022 ever=0 final=0 seconds=111.1
+EXTERNAL_EPISODE_DONE task=can arm=image condition=exposure_shift seed=30023 ever=0 final=0 seconds=111.5
+EXTERNAL_EPISODE_DONE task=can arm=image condition=exposure_shift seed=30024 ever=0 final=0 seconds=114.0
+EXTERNAL_EVAL_SHARD_FINISHED task=can arm=image

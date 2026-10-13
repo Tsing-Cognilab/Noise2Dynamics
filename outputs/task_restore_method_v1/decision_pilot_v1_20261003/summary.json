@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "mean_inference_seconds": 31.344757009251044
+    },
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 30.998750912072136
+    },
+    {
+      "task": "can",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 46,
+      "final": 46,
+      "success_rate": 0.92,
+      "final_success_rate": 0.92,
+      "mean_inference_seconds": 30.65426493865438
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "mean_inference_seconds": 31.078790051620455
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "mean_inference_seconds": 30.969658478945494
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "mean_inference_seconds": 31.36915176800918
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "mean_inference_seconds": 31.119422939452342
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "success_rate": 0.8,
+      "final_success_rate": 0.8,
+      "mean_inference_seconds": 31.017701907395384
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 30.900241789510474
+    },
+    {
+      "task": "square",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "mean_inference_seconds": 31.062407555892133
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "success_rate": 0.8,
+      "final_success_rate": 0.8,
+      "mean_inference_seconds": 31.26074545981828
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "mean_inference_seconds": 30.917893101987428
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 44,
+      "final": 43,
+      "success_rate": 0.88,
+      "final_success_rate": 0.86,
+      "mean_inference_seconds": 30.89545217512641
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "success_rate": 0.96,
+      "final_success_rate": 0.96,
+      "mean_inference_seconds": 31.38741161190439
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "task": "can",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0
+    },
+    {
+      "task": "square",
+      "gains": 5,
+      "losses": 0,
+      "delta_pp": 10.0,
+      "exact_two_sided_p": 0.0625
+    }
+  ]
+}

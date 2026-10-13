@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "tasks": [
+    "lift",
+    "can",
+    "square"
+  ],
+  "conditions": [
+    "clean",
+    "shot_read_medium",
+    "lowlight"
+  ],
+  "episodes": 50,
+  "start_seed": 10000,
+  "max_steps": 400,
+  "shard_size": 5,
+  "video_episodes": 2,
+  "source_archive_sha256": "c63f8d56279b85d622e0ecb4984c4dcf8b04231d59d10aab446747127bb61835",
+  "source_checkpoints": {
+    "lift": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "can": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "square": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524"
+  },
+  "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+  "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0",
+  "launcher_sha256": "780c7f623a617a488b0964afa9486e0c1f2c5d49d30fbc73ffb517711bcc68f6",
+  "state_banks": {
+    "lift": "39b1585bc48250c9fa5e17220861529b4d16e11ffd91df802472d8e447392c0b",
+    "can": "9bd9daab3243c30f6010d0da745e452d9caf253337192c9833a5984f4f7e1576",
+    "square": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb"
+  }
+}

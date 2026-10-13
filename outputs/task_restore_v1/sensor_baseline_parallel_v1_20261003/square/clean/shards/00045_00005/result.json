@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "square",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "NutAssemblySquare",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 45,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 1.0,
+  "final_success_rate": 1.0,
+  "successes": 5,
+  "episodes": 5,
+  "mean_episode_seconds": 112.50496332393959,
+  "current_run_seconds": 576.9862331729382,
+  "rows": [
+    {
+      "seed": 10045,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 152,
+      "steps": 400,
+      "wall_seconds": 119.13277136185206,
+      "inference_seconds": 34.1519127683714,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "bc332220cf849f69b866a08c34f0bd7a126ea5e6a6b82c60e55fe50d41da6ca8",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "e3b9a4d9f9798d3081e42ec6bdbe08776e275dd50c8c29a2567992e71027ef0b",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10046,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 161,
+      "steps": 400,
+      "wall_seconds": 111.59541573701426,
+      "inference_seconds": 30.06839187722653,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "8c547860a60b893ace935a4480a47f232bf35f5ca5b15fef9a8cfadb964de8e5",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "c87b6a0de4f445242286f61138f799bf9d04360872ae6d6e6fbdcfcd66e0acd1",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10047,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 139,
+      "steps": 400,
+      "wall_seconds": 112.83866683510132,
+      "inference_seconds": 31.129112518625334,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "b37f33655751fb3cbbc514ad0d30ff156689ad4e74db7b07272a58cecfb18115",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "8f5eed32c616aa33493790176124e627bbd466e8379751b5d785598c361bd8d0",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10048,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 155,
+      "steps": 400,
+      "wall_seconds": 108.7954874348361,
+      "inference_seconds": 29.468127370812,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "c300de51bcb4b41e8d9b9c8273f8a0ceafc7574e49164588c7147aff82eca6cb",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "9e7df226b6f21bdb6c2a8ec09b85112bd7b0b9abaa7f57f8f13a1855e8c903f4",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10049,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 124,
+      "steps": 400,
+      "wall_seconds": 110.1624752508942,
+      "inference_seconds": 30.08434630720876,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "f8df2c016caf969af8af6c61c971c54a8b9a4faa3bbfd0c52c12f96295e5be20",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "21f3cc2288eb2f9ddf8eff6b7b52cce914c0ed5c02588ca0ca044dc958916073",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

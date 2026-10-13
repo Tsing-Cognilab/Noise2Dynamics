@@ -1,0 +1,19 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_gripper_qpos', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name NutAssemblySquare
+Action size is 7
+METHOD_EPISODE_DONE task=square arm=decision condition=lowlight seed=30020 ever=1 final=1 seconds=115.8
+METHOD_EPISODE_DONE task=square arm=decision condition=lowlight seed=30021 ever=1 final=1 seconds=109.6
+METHOD_EPISODE_DONE task=square arm=decision condition=lowlight seed=30022 ever=1 final=1 seconds=111.7
+METHOD_EPISODE_DONE task=square arm=decision condition=lowlight seed=30023 ever=1 final=1 seconds=109.4
+METHOD_EPISODE_DONE task=square arm=decision condition=lowlight seed=30024 ever=1 final=1 seconds=112.0
+METHOD_EVAL_SHARD_FINISHED task=square arm=decision

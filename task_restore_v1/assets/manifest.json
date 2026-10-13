@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    {
+      "task": "lift",
+      "method": "diffusion_policy_transformer",
+      "source_url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/lift_ph/diffusion_policy_transformer/train_0/checkpoints/epoch=0250-test_mean_score=1.000.ckpt",
+      "checkpoint": "assets/diffusion_policy_transformer/lift/epoch=0250-test_mean_score=1.000.ckpt",
+      "checkpoint_sha256": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+      "config": "assets/diffusion_policy_transformer/lift/config.yaml",
+      "metadata_hdf5": "assets/diffusion_policy_transformer/lift/original_demo.hdf5",
+      "policy_training_run": "train_0",
+      "selection_rule": "published maximum clean score, tie earliest epoch; fixed before noisy evaluation"
+    },
+    {
+      "task": "can",
+      "method": "diffusion_policy_transformer",
+      "source_url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/can_ph/diffusion_policy_transformer/train_0/checkpoints/epoch=0950-test_mean_score=1.000.ckpt",
+      "checkpoint": "assets/diffusion_policy_transformer/can/epoch=0950-test_mean_score=1.000.ckpt",
+      "checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+      "config": "assets/diffusion_policy_transformer/can/config.yaml",
+      "metadata_hdf5": "assets/diffusion_policy_transformer/can/original_demo.hdf5",
+      "policy_training_run": "train_0",
+      "selection_rule": "published maximum clean score, tie earliest epoch; fixed before noisy evaluation"
+    },
+    {
+      "task": "square",
+      "method": "diffusion_policy_transformer",
+      "source_url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/square_ph/diffusion_policy_transformer/train_0/checkpoints/epoch=2400-test_mean_score=1.000.ckpt",
+      "checkpoint": "assets/diffusion_policy_transformer/square/epoch=2400-test_mean_score=1.000.ckpt",
+      "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+      "config": "assets/diffusion_policy_transformer/square/config.yaml",
+      "metadata_hdf5": "assets/diffusion_policy_transformer/square/original_demo.hdf5",
+      "policy_training_run": "train_0",
+      "selection_rule": "published maximum clean score, tie earliest epoch; fixed before noisy evaluation"
+    }
+  ],
+  "source_archive_sha256": "c63f8d56279b85d622e0ecb4984c4dcf8b04231d59d10aab446747127bb61835"
+}

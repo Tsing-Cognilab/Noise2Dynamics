@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8883132750634104
+    },
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8328397138975561
+    },
+    {
+      "task": "can",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9026832128874958
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.981176306027919
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8798146089538932
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9561873129568994
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9855723138898611
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8727103748824447
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.869619521079585
+    },
+    {
+      "task": "square",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9673614220228046
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9059092118404806
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9048501770012081
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9198065139353275
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9348629880696535
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "task": "can",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0
+    },
+    {
+      "task": "square",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0
+    }
+  ]
+}

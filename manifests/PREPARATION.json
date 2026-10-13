@@ -1,0 +1,49 @@
+{
+  "source": "/data/lizhenhao/lizhenhao/n2d_dreamerv3",
+  "target": "/data/lizhenhao/lizhenhao/Noise2Dynamics_CVM",
+  "roots": [
+    "task_restore_v1",
+    "task_restore_method_v1",
+    "task_restore_repeat_v1",
+    "task_restore_confirm_v1",
+    "task_restore_external_v1",
+    "task_restore_video_hd_v1",
+    "outputs/task_restore_v1",
+    "outputs/task_restore_method_v1",
+    "outputs/task_restore_repeat_v1",
+    "outputs/task_restore_confirm_v1",
+    "outputs/task_restore_external_v1",
+    "outputs/cvm_video_hd_v1"
+  ],
+  "format": 1,
+  "files": 9741,
+  "bytes": 2837412766,
+  "groups": {
+    "git": {
+      "files": 9644,
+      "bytes": 162973070
+    },
+    "models": {
+      "files": 68,
+      "bytes": 2320704904
+    },
+    "datasets": {
+      "files": 27,
+      "bytes": 319166811
+    },
+    "resources": {
+      "files": 2,
+      "bytes": 34567981
+    }
+  },
+  "excluded_entries": 41,
+  "training_seeds": [
+    3072,
+    3073,
+    3074
+  ],
+  "uploaded": false,
+  "release_upload_bytes": 2289351630,
+  "release_upload_files": 20,
+  "git_tracked_files": 9658
+}

@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_quat', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['agentview_image', 'robot0_eye_in_hand_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name NutAssemblySquare
+Action size is 7
+STEP_PROGRESS task=square condition=shot_read_medium episode=31/50 steps=80/400 success_ever=0 seconds=26.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=31/50 steps=160/400 success_ever=1 seconds=48.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=31/50 steps=240/400 success_ever=1 seconds=69.8
+STEP_PROGRESS task=square condition=shot_read_medium episode=31/50 steps=320/400 success_ever=1 seconds=92.8
+STEP_PROGRESS task=square condition=shot_read_medium episode=31/50 steps=400/400 success_ever=1 seconds=116.1
+EPISODE_DONE task=square condition=shot_read_medium episode=31/50 seed=10030 success=1 seconds=116.1
+STEP_PROGRESS task=square condition=shot_read_medium episode=32/50 steps=80/400 success_ever=0 seconds=21.7
+STEP_PROGRESS task=square condition=shot_read_medium episode=32/50 steps=160/400 success_ever=1 seconds=43.6
+STEP_PROGRESS task=square condition=shot_read_medium episode=32/50 steps=240/400 success_ever=1 seconds=65.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=32/50 steps=320/400 success_ever=1 seconds=86.6
+STEP_PROGRESS task=square condition=shot_read_medium episode=32/50 steps=400/400 success_ever=1 seconds=108.9
+EPISODE_DONE task=square condition=shot_read_medium episode=32/50 seed=10031 success=1 seconds=108.9
+STEP_PROGRESS task=square condition=shot_read_medium episode=33/50 steps=80/400 success_ever=0 seconds=21.7
+STEP_PROGRESS task=square condition=shot_read_medium episode=33/50 steps=160/400 success_ever=1 seconds=44.1
+STEP_PROGRESS task=square condition=shot_read_medium episode=33/50 steps=240/400 success_ever=1 seconds=65.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=33/50 steps=320/400 success_ever=1 seconds=87.8
+STEP_PROGRESS task=square condition=shot_read_medium episode=33/50 steps=400/400 success_ever=1 seconds=110.2
+EPISODE_DONE task=square condition=shot_read_medium episode=33/50 seed=10032 success=1 seconds=110.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=34/50 steps=80/400 success_ever=0 seconds=22.1
+STEP_PROGRESS task=square condition=shot_read_medium episode=34/50 steps=160/400 success_ever=1 seconds=44.5
+STEP_PROGRESS task=square condition=shot_read_medium episode=34/50 steps=240/400 success_ever=1 seconds=67.0
+STEP_PROGRESS task=square condition=shot_read_medium episode=34/50 steps=320/400 success_ever=1 seconds=89.6
+STEP_PROGRESS task=square condition=shot_read_medium episode=34/50 steps=400/400 success_ever=1 seconds=113.1
+EPISODE_DONE task=square condition=shot_read_medium episode=34/50 seed=10033 success=1 seconds=113.1
+STEP_PROGRESS task=square condition=shot_read_medium episode=35/50 steps=80/400 success_ever=0 seconds=22.3
+STEP_PROGRESS task=square condition=shot_read_medium episode=35/50 steps=160/400 success_ever=1 seconds=44.2
+STEP_PROGRESS task=square condition=shot_read_medium episode=35/50 steps=240/400 success_ever=1 seconds=66.1
+STEP_PROGRESS task=square condition=shot_read_medium episode=35/50 steps=320/400 success_ever=1 seconds=88.4
+STEP_PROGRESS task=square condition=shot_read_medium episode=35/50 steps=400/400 success_ever=1 seconds=110.5
+EPISODE_DONE task=square condition=shot_read_medium episode=35/50 seed=10034 success=1 seconds=110.5
+TASK_RESTORE_EVAL_FINISHED task=square condition=shot_read_medium successes=5/5

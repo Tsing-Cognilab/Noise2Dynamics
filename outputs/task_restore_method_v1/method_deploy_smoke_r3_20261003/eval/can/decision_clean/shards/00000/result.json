@@ -1,0 +1,83 @@
+{
+  "protocol": {
+    "task": "can",
+    "arm": "decision",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 1,
+    "start_seed": 20000,
+    "offset": 0,
+    "count": 1,
+    "max_steps": 8,
+    "adapter_sha256": "e71dea883f89e62298e28749c481af8abee70664e7f222ab81a0c27723a50328",
+    "adapter_spec": {
+      "task": "can",
+      "arm": "decision",
+      "seed": 3072,
+      "updates": 2,
+      "batch_size": 16,
+      "decision_weight": 0.1,
+      "learning_rate": 0.0003,
+      "width": 24,
+      "data_sha256": "dd9497e42e330f6b01c96c96fcb036362191655bc0552c723ac3e9ac4089b0d4",
+      "sources": {
+        "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+        "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+        "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+        "run_method.py": "2dec6f77f3401ef941b8ef10ac4577e56e9fb4261a9f61ac2bbab2c0b9becfc1",
+        "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+        "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+      },
+      "parameters": 267195,
+      "noise": {
+        "exposure": 0.25,
+        "gain": 0.004,
+        "read": 0.008,
+        "correlated": false
+      },
+      "identity_probability": 0.2,
+      "teacher_frozen": true,
+      "selection": "last fixed-budget checkpoint; no closed-loop selection"
+    },
+    "policy_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "state_bank_sha256": "1a97c4af14b1947e07dd7bf2317e1e8e4f33f90c3766ba2bda5cd02c10257176",
+    "sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "2dec6f77f3401ef941b8ef10ac4577e56e9fb4261a9f61ac2bbab2c0b9becfc1",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "exposure_control": null
+  },
+  "rows": [
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "seed": 20000,
+      "steps": 8,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "wall_seconds": 7.281790657900274,
+      "inference_seconds": 0.9694771731738001,
+      "initial_state_sha256": "a420b244383ee4d109bf2edb376fee2082bf2d0a5192b56bbacde807e8303f3c",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "bedf458a49c1eca0e152c12db1b30f34218a7118f790fb070e0787a46f4ae959",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    }
+  ],
+  "successes": 0,
+  "final_successes": 0,
+  "episodes": 1
+}

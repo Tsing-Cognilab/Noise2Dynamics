@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_gripper_qpos', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['agentview_image', 'robot0_eye_in_hand_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name NutAssemblySquare
+Action size is 7
+STEP_PROGRESS task=square condition=lowlight episode=21/50 steps=80/400 success_ever=0 seconds=27.8
+STEP_PROGRESS task=square condition=lowlight episode=21/50 steps=160/400 success_ever=0 seconds=50.7
+STEP_PROGRESS task=square condition=lowlight episode=21/50 steps=240/400 success_ever=0 seconds=72.1
+STEP_PROGRESS task=square condition=lowlight episode=21/50 steps=320/400 success_ever=0 seconds=95.1
+STEP_PROGRESS task=square condition=lowlight episode=21/50 steps=400/400 success_ever=0 seconds=118.3
+EPISODE_DONE task=square condition=lowlight episode=21/50 seed=10020 success=0 seconds=118.3
+STEP_PROGRESS task=square condition=lowlight episode=22/50 steps=80/400 success_ever=0 seconds=22.9
+STEP_PROGRESS task=square condition=lowlight episode=22/50 steps=160/400 success_ever=0 seconds=45.5
+STEP_PROGRESS task=square condition=lowlight episode=22/50 steps=240/400 success_ever=0 seconds=68.1
+STEP_PROGRESS task=square condition=lowlight episode=22/50 steps=320/400 success_ever=0 seconds=90.7
+STEP_PROGRESS task=square condition=lowlight episode=22/50 steps=400/400 success_ever=0 seconds=112.8
+EPISODE_DONE task=square condition=lowlight episode=22/50 seed=10021 success=0 seconds=112.8
+STEP_PROGRESS task=square condition=lowlight episode=23/50 steps=80/400 success_ever=0 seconds=22.6
+STEP_PROGRESS task=square condition=lowlight episode=23/50 steps=160/400 success_ever=0 seconds=45.6
+STEP_PROGRESS task=square condition=lowlight episode=23/50 steps=240/400 success_ever=0 seconds=68.2
+STEP_PROGRESS task=square condition=lowlight episode=23/50 steps=320/400 success_ever=0 seconds=90.9
+STEP_PROGRESS task=square condition=lowlight episode=23/50 steps=400/400 success_ever=0 seconds=112.8
+EPISODE_DONE task=square condition=lowlight episode=23/50 seed=10022 success=0 seconds=112.8
+STEP_PROGRESS task=square condition=lowlight episode=24/50 steps=80/400 success_ever=0 seconds=22.1
+STEP_PROGRESS task=square condition=lowlight episode=24/50 steps=160/400 success_ever=0 seconds=44.1
+STEP_PROGRESS task=square condition=lowlight episode=24/50 steps=240/400 success_ever=0 seconds=66.0
+STEP_PROGRESS task=square condition=lowlight episode=24/50 steps=320/400 success_ever=0 seconds=88.9
+STEP_PROGRESS task=square condition=lowlight episode=24/50 steps=400/400 success_ever=0 seconds=111.7
+EPISODE_DONE task=square condition=lowlight episode=24/50 seed=10023 success=0 seconds=111.7
+STEP_PROGRESS task=square condition=lowlight episode=25/50 steps=80/400 success_ever=0 seconds=21.9
+STEP_PROGRESS task=square condition=lowlight episode=25/50 steps=160/400 success_ever=0 seconds=44.2
+STEP_PROGRESS task=square condition=lowlight episode=25/50 steps=240/400 success_ever=0 seconds=66.9
+STEP_PROGRESS task=square condition=lowlight episode=25/50 steps=320/400 success_ever=0 seconds=88.7
+STEP_PROGRESS task=square condition=lowlight episode=25/50 steps=400/400 success_ever=0 seconds=110.3
+EPISODE_DONE task=square condition=lowlight episode=25/50 seed=10024 success=0 seconds=110.3
+TASK_RESTORE_EVAL_FINISHED task=square condition=lowlight successes=0/5

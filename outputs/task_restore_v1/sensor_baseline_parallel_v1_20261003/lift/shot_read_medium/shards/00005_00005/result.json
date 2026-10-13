@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "lift",
+    "condition": "shot_read_medium",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.008,
+      "read": 0.012,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "Lift",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "39b1585bc48250c9fa5e17220861529b4d16e11ffd91df802472d8e447392c0b",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 5,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 1.0,
+  "final_success_rate": 0.8,
+  "successes": 5,
+  "episodes": 5,
+  "mean_episode_seconds": 110.317728573177,
+  "current_run_seconds": 563.5095391171053,
+  "rows": [
+    {
+      "seed": 10005,
+      "success_ever": true,
+      "success_final": false,
+      "first_success_step": 40,
+      "steps": 400,
+      "wall_seconds": 115.61369386408478,
+      "inference_seconds": 31.396934560732916,
+      "task": "lift",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "7ad48b3531c99931d75499fdd1a98b7ed57caf72457b1235f9b40f94dd099ab5",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "d07130785f398e5e371453fe277add3b8e8d01dd8f733272fdcc921d5dd4c3d4",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10006,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 51,
+      "steps": 400,
+      "wall_seconds": 110.10045778984204,
+      "inference_seconds": 30.760699834441766,
+      "task": "lift",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "8fbe6e6b2d69b2eb9f8bc457175d377ac0ea95224ffff089f2132f06161d5d74",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "959e7fd82794c435c9b2d82b01c5878ec93bd612f150a192aab6c048a1d2eca0",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10007,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 46,
+      "steps": 400,
+      "wall_seconds": 108.05054072011262,
+      "inference_seconds": 29.995249605970457,
+      "task": "lift",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "6fd85b6898ad0c9794e322d77aaa57505cebf4f654694c07fbf329f792441c44",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "b801876e58f0572310f948473aaa565ee0a88c110ff21f3278ad3fd6d2146e77",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10008,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 42,
+      "steps": 400,
+      "wall_seconds": 109.35454029287212,
+      "inference_seconds": 30.985900265164673,
+      "task": "lift",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "bbf4ec02c73278ee8925c8e671b794b2f4f959a1fea8a0cedd47e78e72005b67",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "3c9a6cb12aeb463633b1be385c2e9423c70783af7e20b382da403123ef50bf57",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10009,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 52,
+      "steps": 400,
+      "wall_seconds": 108.46941019897349,
+      "inference_seconds": 30.701758780982345,
+      "task": "lift",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "564526a3938bf417af6d2bcfab3d4606a4dfb32fe5310af650ddc71492bbf54e",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "1ac13c72184eb2772414373598b1c85456d0e72157429630354b2e348f706062",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "source": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003",
+  "repeat": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003",
+  "tasks": [
+    "can",
+    "square"
+  ],
+  "seeds": [
+    3072,
+    3073,
+    3074
+  ],
+  "counts": {
+    "clean": 50,
+    "lowlight": 100
+  },
+  "start_seed": 30000,
+  "bank_episodes": 100,
+  "max_steps": 400,
+  "shard_size": 5,
+  "new_models": 6,
+  "new_episodes": 3200,
+  "updates": 2000,
+  "calibration": {
+    "seed": 880031,
+    "batches": 4,
+    "batch_size": 16,
+    "decision_weight": 0.1,
+    "rule": "median initial-gradient ratio to 0.1 * decision loss; train split only"
+  },
+  "base_sources": {
+    "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+    "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+    "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+    "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+    "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+    "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+  },
+  "confirm_sources": {
+    "contract.py": "a27afeb05b5e91a06c2a512335165d8fda6c65f0fc4c92dbce4aeda56aa0492c",
+    "evaluate_confirm.py": "62676164686e6d436a0a3303f79f2e3889bbfbbf7465aa952bcf8f383af0e199",
+    "feature_train.py": "e296b4ebb4955453b617955a63ce5a54493b6c9e69c76d002f2238d3643df7fc",
+    "report.py": "d44241d969835dec1f964778fcc094e441887e05daf35c6a8b727bb1603c95ea",
+    "run_confirm.py": "67b328015671c328e396a0241fe23b2f1d5065dd68a9637752e45d2610516db9",
+    "test_confirm.py": "645b2a3e756f12fc9010edc1fe86d050c3f7fc1195251221fac785ee4954d0fb"
+  },
+  "core_sources": {
+    "evaluate.py": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "states.py": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "legacy_compat.py": "6b5e2306cec3a6b3658175640f4aaa2e09dd64aab2cbd5839f681fef6f42946a"
+  },
+  "policies": {
+    "can": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "square": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524"
+  },
+  "prior_adapters": {
+    "3072/can/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003/train/can/image/model.pt",
+      "sha256": "9fe8e5df2dd70b3f1e25fd5ff19321ad2ada2637b7c4e7b7dddbe0e99d9cf623",
+      "spec": {
+        "task": "can",
+        "arm": "image",
+        "seed": 3072,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3072/can/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003/train/can/decision/model.pt",
+      "sha256": "8537f7deea4de1333bc41a959cba8a8a4a2539b518ac001715c3039a20407596",
+      "spec": {
+        "task": "can",
+        "arm": "decision",
+        "seed": 3072,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3072/square/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003/train/square/image/model.pt",
+      "sha256": "aa1ebdc115e495fdf740d16d2397ff3faacd0fa42dcf1b64286bdd307f6f7526",
+      "spec": {
+        "task": "square",
+        "arm": "image",
+        "seed": 3072,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3072/square/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003/train/square/decision/model.pt",
+      "sha256": "b0db48e36c597bd9dfdf2e1cb893c85297296fea84792f17aa3d1bd9409d5c4b",
+      "spec": {
+        "task": "square",
+        "arm": "decision",
+        "seed": 3072,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3073/can/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3073/train/can/image/model.pt",
+      "sha256": "ba8d7591c3f7fc656cc5f98c962a5e9d84c3c851e94575f9dc66677bfee4694a",
+      "spec": {
+        "task": "can",
+        "arm": "image",
+        "seed": 3073,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3073/can/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3073/train/can/decision/model.pt",
+      "sha256": "a2002067a6cc99fd527edc6f6b2db1b5dc0e96220d25465dbcb72bd84f2e7568",
+      "spec": {
+        "task": "can",
+        "arm": "decision",
+        "seed": 3073,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3073/square/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3073/train/square/image/model.pt",
+      "sha256": "cc4f6b39c9e0de2187decd7014abe10098e067a5a74cead77af8b041c543ec24",
+      "spec": {
+        "task": "square",
+        "arm": "image",
+        "seed": 3073,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3073/square/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3073/train/square/decision/model.pt",
+      "sha256": "206599e7352d068a62904de7e46b19c2ad708a5b2919c3d9515847e0be3f565b",
+      "spec": {
+        "task": "square",
+        "arm": "decision",
+        "seed": 3073,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3074/can/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3074/train/can/image/model.pt",
+      "sha256": "b83a8f54c1c933165a84b31d4733a4db00e50598c812ae835f3a00cbad237305",
+      "spec": {
+        "task": "can",
+        "arm": "image",
+        "seed": 3074,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3074/can/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3074/train/can/decision/model.pt",
+      "sha256": "ce3b673bb3914956f1fa9d1cf759ad3b57ae75ad0af688d4854ea2d6a1a82fc3",
+      "spec": {
+        "task": "can",
+        "arm": "decision",
+        "seed": 3074,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3074/square/image": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3074/train/square/image/model.pt",
+      "sha256": "8c56e58cbffeb2e914cf89cf4a98f50f4caa422b9731b7c2d54b34400ac084fa",
+      "spec": {
+        "task": "square",
+        "arm": "image",
+        "seed": 3074,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    },
+    "3074/square/decision": {
+      "path": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_repeat_v1/decision_repeat_v1_20261003/seed3074/train/square/decision/model.pt",
+      "sha256": "db52e448d13fa7d69a13efb7d445cb3fa2f276606a7f38c94d630fedb44af41a",
+      "spec": {
+        "task": "square",
+        "arm": "decision",
+        "seed": 3074,
+        "updates": 2000,
+        "batch_size": 16,
+        "decision_weight": 0.1,
+        "learning_rate": 0.0003,
+        "width": 24,
+        "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+        "sources": {
+          "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+          "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+          "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+          "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+          "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+          "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+        },
+        "parameters": 267195,
+        "noise": {
+          "exposure": 0.25,
+          "gain": 0.004,
+          "read": 0.008,
+          "correlated": false
+        },
+        "identity_probability": 0.2,
+        "teacher_frozen": true,
+        "selection": "last fixed-budget checkpoint; no closed-loop selection"
+      }
+    }
+  },
+  "data_sha256": {
+    "can": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+    "square": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b"
+  },
+  "selection": "all fixed seeds, final checkpoint, no state exclusion, no significance stopping"
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "tasks": [
+    "lift"
+  ],
+  "conditions": [
+    "clean",
+    "shot_read_medium"
+  ],
+  "episodes": 4,
+  "start_seed": 10000,
+  "max_steps": 80,
+  "shard_size": 2,
+  "video_episodes": 0,
+  "source_archive_sha256": "c63f8d56279b85d622e0ecb4984c4dcf8b04231d59d10aab446747127bb61835",
+  "source_checkpoints": {
+    "lift": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b"
+  },
+  "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+  "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0",
+  "launcher_sha256": "780c7f623a617a488b0964afa9486e0c1f2c5d49d30fbc73ffb517711bcc68f6",
+  "state_banks": {
+    "lift": "6c78352ecd8032f5d0c0cc9c13282b2a694d52eb2b36f301c0093235ef4d61b1"
+  }
+}

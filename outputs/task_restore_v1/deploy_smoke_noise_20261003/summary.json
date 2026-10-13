@@ -1,0 +1,44 @@
+[
+  {
+    "task": "can",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": null,
+    "mean_episode_seconds": 157.7969065210782
+  },
+  {
+    "task": "lift",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": null,
+    "mean_episode_seconds": 155.54504133202136
+  },
+  {
+    "task": "square",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": null,
+    "mean_episode_seconds": 151.352468166966
+  }
+]

@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['agentview_image', 'robot0_eye_in_hand_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+STEP_PROGRESS task=can condition=clean episode=26/50 steps=80/400 success_ever=0 seconds=28.3
+STEP_PROGRESS task=can condition=clean episode=26/50 steps=160/400 success_ever=1 seconds=51.0
+STEP_PROGRESS task=can condition=clean episode=26/50 steps=240/400 success_ever=1 seconds=73.9
+STEP_PROGRESS task=can condition=clean episode=26/50 steps=320/400 success_ever=1 seconds=96.2
+STEP_PROGRESS task=can condition=clean episode=26/50 steps=400/400 success_ever=1 seconds=118.4
+EPISODE_DONE task=can condition=clean episode=26/50 seed=10025 success=1 seconds=118.4
+STEP_PROGRESS task=can condition=clean episode=27/50 steps=80/400 success_ever=0 seconds=23.5
+STEP_PROGRESS task=can condition=clean episode=27/50 steps=160/400 success_ever=1 seconds=45.5
+STEP_PROGRESS task=can condition=clean episode=27/50 steps=240/400 success_ever=1 seconds=68.2
+STEP_PROGRESS task=can condition=clean episode=27/50 steps=320/400 success_ever=1 seconds=90.2
+STEP_PROGRESS task=can condition=clean episode=27/50 steps=400/400 success_ever=1 seconds=111.0
+EPISODE_DONE task=can condition=clean episode=27/50 seed=10026 success=1 seconds=111.0
+STEP_PROGRESS task=can condition=clean episode=28/50 steps=80/400 success_ever=0 seconds=23.6
+STEP_PROGRESS task=can condition=clean episode=28/50 steps=160/400 success_ever=1 seconds=46.7
+STEP_PROGRESS task=can condition=clean episode=28/50 steps=240/400 success_ever=1 seconds=69.3
+STEP_PROGRESS task=can condition=clean episode=28/50 steps=320/400 success_ever=1 seconds=91.7
+STEP_PROGRESS task=can condition=clean episode=28/50 steps=400/400 success_ever=1 seconds=114.2
+EPISODE_DONE task=can condition=clean episode=28/50 seed=10027 success=1 seconds=114.2
+STEP_PROGRESS task=can condition=clean episode=29/50 steps=80/400 success_ever=0 seconds=23.5
+STEP_PROGRESS task=can condition=clean episode=29/50 steps=160/400 success_ever=1 seconds=45.4
+STEP_PROGRESS task=can condition=clean episode=29/50 steps=240/400 success_ever=1 seconds=68.3
+STEP_PROGRESS task=can condition=clean episode=29/50 steps=320/400 success_ever=1 seconds=91.4
+STEP_PROGRESS task=can condition=clean episode=29/50 steps=400/400 success_ever=1 seconds=114.2
+EPISODE_DONE task=can condition=clean episode=29/50 seed=10028 success=1 seconds=114.2
+STEP_PROGRESS task=can condition=clean episode=30/50 steps=80/400 success_ever=0 seconds=23.5
+STEP_PROGRESS task=can condition=clean episode=30/50 steps=160/400 success_ever=1 seconds=46.2
+STEP_PROGRESS task=can condition=clean episode=30/50 steps=240/400 success_ever=1 seconds=69.1
+STEP_PROGRESS task=can condition=clean episode=30/50 steps=320/400 success_ever=1 seconds=90.6
+STEP_PROGRESS task=can condition=clean episode=30/50 steps=400/400 success_ever=1 seconds=112.1
+EPISODE_DONE task=can condition=clean episode=30/50 seed=10029 success=1 seconds=112.1
+TASK_RESTORE_EVAL_FINISHED task=can condition=clean successes=5/5

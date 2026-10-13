@@ -1,0 +1,60 @@
+{
+  "task": "square",
+  "arm": "decision",
+  "condition": "lowlight",
+  "noise": {
+    "exposure": 0.25,
+    "gain": 0.004,
+    "read": 0.008,
+    "correlated": false
+  },
+  "episodes": 50,
+  "start_seed": 20000,
+  "offset": 40,
+  "count": 5,
+  "max_steps": 400,
+  "adapter_sha256": "206599e7352d068a62904de7e46b19c2ad708a5b2919c3d9515847e0be3f565b",
+  "adapter_spec": {
+    "task": "square",
+    "arm": "decision",
+    "seed": 3073,
+    "updates": 2000,
+    "batch_size": 16,
+    "decision_weight": 0.1,
+    "learning_rate": 0.0003,
+    "width": 24,
+    "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+    "sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "parameters": 267195,
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "identity_probability": 0.2,
+    "teacher_frozen": true,
+    "selection": "last fixed-budget checkpoint; no closed-loop selection"
+  },
+  "policy_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+  "state_bank_sha256": "b992709a67f8d58cc9b4354bd7785c721e7ba5113c138e24a27b277cb637d06a",
+  "sources": {
+    "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+    "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+    "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+    "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+    "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+    "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+  },
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "inference_steps": 100,
+  "exposure_control": null
+}

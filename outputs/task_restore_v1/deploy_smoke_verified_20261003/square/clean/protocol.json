@@ -1,0 +1,82 @@
+{
+  "task": "square",
+  "condition": "clean",
+  "noise": {
+    "exposure": 1.0,
+    "gain": 0.0,
+    "read": 0.0,
+    "correlated": false
+  },
+  "episodes": 1,
+  "start_seed": 10000,
+  "max_steps": 400,
+  "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "inference_steps": 100,
+  "env_metadata": {
+    "type": 1,
+    "env_name": "NutAssemblySquare",
+    "env_kwargs": {
+      "has_renderer": false,
+      "has_offscreen_renderer": false,
+      "ignore_done": true,
+      "use_object_obs": false,
+      "use_camera_obs": false,
+      "reward_shaping": false,
+      "control_freq": 20,
+      "controller_configs": {
+        "type": "OSC_POSE",
+        "input_max": 1,
+        "input_min": -1,
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "kp": 150,
+        "damping": 1,
+        "impedance_mode": "fixed",
+        "kp_limits": [
+          0,
+          300
+        ],
+        "damping_limits": [
+          0,
+          10
+        ],
+        "position_limits": null,
+        "orientation_limits": null,
+        "uncouple_pos_ori": true,
+        "control_delta": false,
+        "interpolation": null,
+        "ramp_ratio": 0.2
+      },
+      "robots": [
+        "Panda"
+      ],
+      "camera_names": [
+        "agentview",
+        "robot0_eye_in_hand"
+      ],
+      "camera_depths": false,
+      "camera_heights": 84,
+      "camera_widths": 84,
+      "hard_reset": false
+    }
+  },
+  "source": "published_diffusion_policy_transformer_train_0",
+  "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+  "evaluator_sha256": "d25bbf3149e39281e2e152c41a944012e4a61e73fbc959ad57c5de47d5a07389"
+}

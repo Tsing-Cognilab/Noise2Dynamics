@@ -1,0 +1,22 @@
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1/2000 loss=0.266870 seconds=0.7
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=100/2000 loss=0.019091 seconds=15.3
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=200/2000 loss=0.018865 seconds=30.0
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=300/2000 loss=0.015445 seconds=44.7
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=400/2000 loss=0.015106 seconds=59.4
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=500/2000 loss=0.014031 seconds=74.2
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=600/2000 loss=0.013197 seconds=89.0
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=700/2000 loss=0.010787 seconds=103.7
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=800/2000 loss=0.012091 seconds=118.5
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=900/2000 loss=0.010851 seconds=133.3
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1000/2000 loss=0.009991 seconds=148.0
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1100/2000 loss=0.011782 seconds=162.8
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1200/2000 loss=0.011194 seconds=177.5
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1300/2000 loss=0.009184 seconds=192.3
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1400/2000 loss=0.009668 seconds=207.0
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1500/2000 loss=0.008897 seconds=221.8
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1600/2000 loss=0.010639 seconds=236.5
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1700/2000 loss=0.010597 seconds=251.3
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1800/2000 loss=0.007561 seconds=266.0
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=1900/2000 loss=0.008183 seconds=280.7
+EXTERNAL_TRAIN_PROGRESS task=square seed=3072 update=2000/2000 loss=0.009092 seconds=295.5
+EXTERNAL_TRAIN_FINISHED square 3072

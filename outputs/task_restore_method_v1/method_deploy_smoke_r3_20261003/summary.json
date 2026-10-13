@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8490093960426748
+    },
+    {
+      "task": "can",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8248954899609089
+    },
+    {
+      "task": "can",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8857099248562008
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9079352859407663
+    },
+    {
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 1.0152276421431452
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9694771731738001
+    },
+    {
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9373558750376105
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9553509359247983
+    },
+    {
+      "task": "square",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9382339471485466
+    },
+    {
+      "task": "square",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8784463300835341
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9701612698845565
+    },
+    {
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9487795890308917
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.8804951629135758
+    },
+    {
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 1,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "mean_inference_seconds": 0.9150783680379391
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "task": "can",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0
+    },
+    {
+      "task": "square",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0
+    }
+  ]
+}

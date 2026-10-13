@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "square",
+    "condition": "lowlight",
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "NutAssemblySquare",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 15,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.0,
+  "final_success_rate": 0.0,
+  "successes": 0,
+  "episodes": 5,
+  "mean_episode_seconds": 109.02059558224865,
+  "current_run_seconds": 559.0249201378319,
+  "rows": [
+    {
+      "seed": 10015,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 116.24550167215057,
+      "inference_seconds": 30.12560231331736,
+      "task": "square",
+      "condition": "lowlight",
+      "initial_state_sha256": "ba172a3809bccda133e19870d178b42373b049b34bd93c54f6543e3ab9d248c4",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "c6244ba3039b79972872e29372d8b11ac862072d9cddb7eb358951d7a121b4aa",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10016,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 110.60863023600541,
+      "inference_seconds": 28.29635198856704,
+      "task": "square",
+      "condition": "lowlight",
+      "initial_state_sha256": "534d40fc4c5f043db5662961bd16f2bded5a707098b252a360f4806178c5ed1c",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "945f7d3bf2c916fd5a7905f50d88f5a5bda72a5755893a7e93f271479eddca67",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10017,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 110.70570202800445,
+      "inference_seconds": 29.330099167767912,
+      "task": "square",
+      "condition": "lowlight",
+      "initial_state_sha256": "21537158e2f4458193eb93014a0409fe78a3f353e47521fbdd30b5ae59ff7da4",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "28a2717bfcacf540f580793fa0bc976fc74b0513e4de7a43f340b216e90ad563",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10018,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 99.7168894961942,
+      "inference_seconds": 30.12306095403619,
+      "task": "square",
+      "condition": "lowlight",
+      "initial_state_sha256": "7264ab5b9a72a7262b70103504079ddf664c5c6581ca70f4ee0242483c687730",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "decacde82d43d4dd2409e00635d6bf83547453d61546ef3b763fcc875a3b9182",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10019,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 107.82625447888859,
+      "inference_seconds": 29.893576978938654,
+      "task": "square",
+      "condition": "lowlight",
+      "initial_state_sha256": "a6ed8081f74ec28b6d2e5b52405471e8af0b652aaacf540d0f3481d6e56a7455",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "9813e829c6064de3158e8f6ddb21e275071596778338c7b1aaf79d21a095241e",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

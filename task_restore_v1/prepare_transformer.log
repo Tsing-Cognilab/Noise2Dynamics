@@ -1,0 +1,10 @@
+DOWNLOADED config.yaml bytes=5621
+DOWNLOADED config.yaml bytes=5651
+DOWNLOADED config.yaml bytes=5631
+DOWNLOADED can/epoch=0950-test_mean_score=1.000.ckpt bytes=681958689
+DOWNLOADED lift/epoch=0250-test_mean_score=1.000.ckpt bytes=681958689
+DOWNLOADED square/epoch=2400-test_mean_score=1.000.ckpt bytes=681958497
+DOWNLOADED original_demo.hdf5 bytes=21376346
+DOWNLOADED original_demo.hdf5 bytes=50602806
+DOWNLOADED original_demo.hdf5 bytes=46540782
+TASK_RESTORE_ASSETS_READY manifest=/data/lizhenhao/lizhenhao/n2d_dreamerv3/task_restore_v1/assets/manifest.json

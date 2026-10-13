@@ -1,0 +1,71 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.76kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/noise2dynamics:franka-v1
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/8] FROM docker.io/library/noise2dynamics:franka-v1@sha256:1612d9d1a885553b92958cbb0a9a42e6961f6452f903d681c8ae9733e826068c
+#4 resolve docker.io/library/noise2dynamics:franka-v1@sha256:1612d9d1a885553b92958cbb0a9a42e6961f6452f903d681c8ae9733e826068c 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 38B done
+#5 DONE 0.0s
+
+#6 [5/8] RUN /opt/taskrestore/bin/pip install --no-cache-dir 'matplotlib==3.7.5' 'h5py==3.8.0'
+#6 CACHED
+
+#7 [3/8] RUN python -m venv --system-site-packages /opt/taskrestore && /opt/taskrestore/bin/pip install --no-cache-dir 'numpy==1.23.5' 'scipy==1.10.1' 'Cython==0.29.37' 'opencv-python-headless==4.8.1.78' 'gym==0.23.1' 'free-mujoco-py==2.1.6' 'robomimic==0.2.0' 'numba==0.57.1' 'zarr==2.16.1' 'numcodecs==0.11.0' 'diffusers==0.11.1' 'huggingface-hub==0.23.4' 'dill==0.3.8'
+#7 CACHED
+
+#8 [2/8] RUN apt-get update && apt-get install -y --no-install-recommends libglew-dev libosmesa6-dev patchelf curl git && rm -rf /var/lib/apt/lists/*
+#8 CACHED
+
+#9 [4/8] RUN mkdir -p /opt/mujoco && curl --fail --location --retry 3 https://github.com/google-deepmind/mujoco/releases/download/2.1.0/mujoco210-linux-x86_64.tar.gz | tar -xz -C /opt/mujoco && /opt/taskrestore/bin/pip install --no-deps https://github.com/cheng-chi/robosuite/archive/277ab9588ad7a4f4b55cf75508b44aa67ec171f0.tar.gz
+#9 CACHED
+
+#10 [6/8] COPY legacy_compat.py /opt/taskrestore/lib/python3.10/site-packages/sitecustomize.py
+#10 CACHED
+
+#11 [7/8] RUN /opt/taskrestore/bin/python -c "import collections, collections.abc; collections.Iterable = collections.abc.Iterable; import mujoco_py, robosuite, robomimic, torch; assert robosuite.__version__ == '1.2.0' and robomimic.__version__ == '0.2.0'; print('TASK_RESTORE_ENV_OK', robosuite.__version__, robomimic.__version__, torch.__version__)"
+#11 0.569 Compiling /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/cymj.pyx because it changed.
+#11 0.569 [1/1] Cythonizing /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/cymj.pyx
+#11 3.732 running build_ext
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py
+#11 3.734 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/gl
+#11 3.734 x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -I/opt/taskrestore/lib/python3.10/site-packages/mujoco_py -I/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/binaries/linux/mujoco210/include -I/opt/taskrestore/lib/python3.10/site-packages/numpy/core/include -I/opt/taskrestore/include -I/usr/include/python3.10 -c /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/cymj.c -o /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/cymj.o -fopenmp -w
+#11 43.73 x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -I/opt/taskrestore/lib/python3.10/site-packages/mujoco_py -I/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/binaries/linux/mujoco210/include -I/opt/taskrestore/lib/python3.10/site-packages/numpy/core/include -I/opt/taskrestore/include -I/usr/include/python3.10 -c /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/gl/osmesashim.c -o /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/gl/osmesashim.o -fopenmp -w
+#11 43.81 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/lib.linux-x86_64-3.10
+#11 43.81 creating /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/lib.linux-x86_64-3.10/mujoco_py
+#11 43.81 x86_64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/cymj.o /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/temp.linux-x86_64-3.10/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/gl/osmesashim.o -L/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/binaries/linux/mujoco210/bin -L/usr/lib/x86_64-linux-gnu -Wl,--enable-new-dtags,-R/opt/taskrestore/lib/python3.10/site-packages/mujoco_py/binaries/linux/mujoco210/bin -lmujoco210 -lglewosmesa -lOSMesa -lGL -o /opt/taskrestore/lib/python3.10/site-packages/mujoco_py/generated/_pyxbld_2.0.2.13_310_linuxcpuextensionbuilder/lib.linux-x86_64-3.10/mujoco_py/cymj.cpython-310-x86_64-linux-gnu.so -fopenmp
+#11 46.13 TASK_RESTORE_ENV_OK 1.2.0 0.2.0 2.5.1+cu124
+#11 DONE 46.7s
+
+#12 [8/8] WORKDIR /workspace
+#12 DONE 0.0s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 3.6s done
+#13 exporting manifest sha256:769f3e9d92bd03514d623a72ec331c74d61e04be9215e9c0692d786d76074c7b 0.0s done
+#13 exporting config sha256:7f40b2ecebf67def0eee7295c96486bffe5a3b985363f0083fc9a0d5076e918d done
+#13 exporting attestation manifest sha256:f8e9e7ef836d8ed0887a0e49d3b9f384d2654f0e08b6f23bab842a0ae635a2b0 done
+#13 exporting manifest list sha256:ba09cf88d4b0810e2ee2d71ed554bbbbfa581e151de3f707b3a01707c76d8f21 done
+#13 naming to docker.io/library/noise2dynamics:taskrestore-v1 done
+#13 unpacking to docker.io/library/noise2dynamics:taskrestore-v1
+#13 unpacking to docker.io/library/noise2dynamics:taskrestore-v1 0.3s done
+#13 DONE 4.0s

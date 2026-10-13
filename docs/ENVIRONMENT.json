@@ -1,0 +1,12 @@
+{
+  "image": "noise2dynamics:taskrestore-v1",
+  "policy_python": "/opt/taskrestore/bin/python",
+  "torch": "2.5.1+cu124",
+  "robomimic": "0.2.0",
+  "mujoco": "2.1",
+  "rendering": "CPU OSMesa",
+  "robosuite_commit": "277ab9588ad7a4f4b55cf75508b44aa67ec171f0",
+  "dockerfile_base": "noise2dynamics:franka-v1",
+  "standalone_docker_build": false,
+  "image_id": "sha256:ba09cf88d4b0810e2ee2d71ed554bbbbfa581e151de3f707b3a01707c76d8f21"
+}

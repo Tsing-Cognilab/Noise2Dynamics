@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "square",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "NutAssemblySquare",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 35,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.8,
+  "final_success_rate": 0.8,
+  "successes": 4,
+  "episodes": 5,
+  "mean_episode_seconds": 112.62033948116004,
+  "current_run_seconds": 577.5651283620391,
+  "rows": [
+    {
+      "seed": 10035,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 109,
+      "steps": 400,
+      "wall_seconds": 113.9394982799422,
+      "inference_seconds": 29.5920122070238,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "4bc078b43df5674fe11b6eb3a6e7fcc69a258ba9d7318d7999e155aad92f85cc",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "33511fc8e67fb97b05cb79bba3375c45d660f0fd488260d327530354d1564bab",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10036,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 127,
+      "steps": 400,
+      "wall_seconds": 112.43449689191766,
+      "inference_seconds": 31.227835338562727,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "d329799ad4a7653a2aa2e2f19f98d421b06cae1ea85c3d2eb4a3ceccf5f6081c",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "8f5539fa7b5d640dddb3194fe6b4551c5b3f9e1f3afdd988217c98d6ce4752a4",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10037,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 146,
+      "steps": 400,
+      "wall_seconds": 110.52141701593064,
+      "inference_seconds": 31.41611586441286,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "1f9792a8486827670cee644c98a17acf421cd5f3a9b5603836904fe4ce4f0a8b",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "37b6e1d55ac96d1a5a2b7a1b9aad89cc946f03f1a0567ebeaebda7dd5ce2fa53",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10038,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 112.91295392694883,
+      "inference_seconds": 31.174890981521457,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "00e6ddf14873f606d511fe228e54bece306b3e608d3fe0b1a7cacdfa8dedb567",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "d83071d4cba054064eea2eeb3af3cbc6e81e4d2370debf43f16d2a087c02aba4",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10039,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 195,
+      "steps": 400,
+      "wall_seconds": 113.2933312910609,
+      "inference_seconds": 33.276573163224384,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "0d2ecee7d21a02c67044f5cf7a8e8b5b220bc8bd09df1b4ca325f8b9730f30e8",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "31b9f3e867bee81557785664ff6a9b5d8a6c5662b18351ed5b1f5fbab1b52e44",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

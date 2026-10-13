@@ -1,0 +1,81 @@
+{
+  "task": "square",
+  "arm": "feature",
+  "condition": "lowlight",
+  "training_seed": 3072,
+  "bank_episodes": 100,
+  "confirm_sources": {
+    "contract.py": "a27afeb05b5e91a06c2a512335165d8fda6c65f0fc4c92dbce4aeda56aa0492c",
+    "evaluate_confirm.py": "62676164686e6d436a0a3303f79f2e3889bbfbbf7465aa952bcf8f383af0e199",
+    "feature_train.py": "e296b4ebb4955453b617955a63ce5a54493b6c9e69c76d002f2238d3643df7fc",
+    "report.py": "d44241d969835dec1f964778fcc094e441887e05daf35c6a8b727bb1603c95ea",
+    "run_confirm.py": "67b328015671c328e396a0241fe23b2f1d5065dd68a9637752e45d2610516db9",
+    "test_confirm.py": "645b2a3e756f12fc9010edc1fe86d050c3f7fc1195251221fac785ee4954d0fb"
+  },
+  "noise": {
+    "exposure": 0.25,
+    "gain": 0.004,
+    "read": 0.008,
+    "correlated": false
+  },
+  "episodes": 100,
+  "start_seed": 30000,
+  "offset": 10,
+  "count": 5,
+  "max_steps": 400,
+  "adapter_sha256": "b4f75c4618730aa85478b1858bc8910fdbe89cd2b74c94c4dd10a269a52360de",
+  "adapter_spec": {
+    "task": "square",
+    "arm": "feature",
+    "seed": 3072,
+    "updates": 2000,
+    "batch_size": 16,
+    "feature_weight": 0.3255451533905213,
+    "calibration_sha256": "d5018d634f0a73314e55c5e58c550a7f0a684c929ea035744e250483dc83a25e",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "width": 24,
+    "sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "confirm_sources": {
+      "contract.py": "a27afeb05b5e91a06c2a512335165d8fda6c65f0fc4c92dbce4aeda56aa0492c",
+      "evaluate_confirm.py": "62676164686e6d436a0a3303f79f2e3889bbfbbf7465aa952bcf8f383af0e199",
+      "feature_train.py": "e296b4ebb4955453b617955a63ce5a54493b6c9e69c76d002f2238d3643df7fc",
+      "report.py": "d44241d969835dec1f964778fcc094e441887e05daf35c6a8b727bb1603c95ea",
+      "run_confirm.py": "67b328015671c328e396a0241fe23b2f1d5065dd68a9637752e45d2610516db9",
+      "test_confirm.py": "645b2a3e756f12fc9010edc1fe86d050c3f7fc1195251221fac785ee4954d0fb"
+    },
+    "data_sha256": "be0da6fe81e79c0104f3058dd790efdcadd23c63483e1352b18213dfbf42da8b",
+    "parameters": 267195,
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "identity_probability": 0.2,
+    "teacher_frozen": true,
+    "selection": "last fixed-budget checkpoint; no closed-loop selection"
+  },
+  "policy_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+  "state_bank_sha256": "af428954d82b7687a362fd9db221bcef7f4aca53e98066b267a975d1221a00f9",
+  "sources": {
+    "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+    "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+    "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+    "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+    "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+    "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+  },
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "inference_steps": 100,
+  "exposure_control": null
+}

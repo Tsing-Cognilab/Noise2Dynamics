@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_quat', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name Lift
+Action size is 7
+STEP_PROGRESS task=lift condition=clean episode=36/50 steps=80/400 success_ever=1 seconds=27.8
+STEP_PROGRESS task=lift condition=clean episode=36/50 steps=160/400 success_ever=1 seconds=49.3
+STEP_PROGRESS task=lift condition=clean episode=36/50 steps=240/400 success_ever=1 seconds=70.7
+STEP_PROGRESS task=lift condition=clean episode=36/50 steps=320/400 success_ever=1 seconds=93.4
+STEP_PROGRESS task=lift condition=clean episode=36/50 steps=400/400 success_ever=1 seconds=114.9
+EPISODE_DONE task=lift condition=clean episode=36/50 seed=10035 success=1 seconds=114.9
+STEP_PROGRESS task=lift condition=clean episode=37/50 steps=80/400 success_ever=1 seconds=22.0
+STEP_PROGRESS task=lift condition=clean episode=37/50 steps=160/400 success_ever=1 seconds=43.8
+STEP_PROGRESS task=lift condition=clean episode=37/50 steps=240/400 success_ever=1 seconds=65.5
+STEP_PROGRESS task=lift condition=clean episode=37/50 steps=320/400 success_ever=1 seconds=88.0
+STEP_PROGRESS task=lift condition=clean episode=37/50 steps=400/400 success_ever=1 seconds=109.9
+EPISODE_DONE task=lift condition=clean episode=37/50 seed=10036 success=1 seconds=109.9
+STEP_PROGRESS task=lift condition=clean episode=38/50 steps=80/400 success_ever=1 seconds=21.4
+STEP_PROGRESS task=lift condition=clean episode=38/50 steps=160/400 success_ever=1 seconds=43.1
+STEP_PROGRESS task=lift condition=clean episode=38/50 steps=240/400 success_ever=1 seconds=64.6
+STEP_PROGRESS task=lift condition=clean episode=38/50 steps=320/400 success_ever=1 seconds=86.1
+STEP_PROGRESS task=lift condition=clean episode=38/50 steps=400/400 success_ever=1 seconds=108.2
+EPISODE_DONE task=lift condition=clean episode=38/50 seed=10037 success=1 seconds=108.2
+STEP_PROGRESS task=lift condition=clean episode=39/50 steps=80/400 success_ever=1 seconds=21.5
+STEP_PROGRESS task=lift condition=clean episode=39/50 steps=160/400 success_ever=1 seconds=44.2
+STEP_PROGRESS task=lift condition=clean episode=39/50 steps=240/400 success_ever=1 seconds=65.9
+STEP_PROGRESS task=lift condition=clean episode=39/50 steps=320/400 success_ever=1 seconds=87.4
+STEP_PROGRESS task=lift condition=clean episode=39/50 steps=400/400 success_ever=1 seconds=109.3
+EPISODE_DONE task=lift condition=clean episode=39/50 seed=10038 success=1 seconds=109.3
+STEP_PROGRESS task=lift condition=clean episode=40/50 steps=80/400 success_ever=1 seconds=21.6
+STEP_PROGRESS task=lift condition=clean episode=40/50 steps=160/400 success_ever=1 seconds=43.7
+STEP_PROGRESS task=lift condition=clean episode=40/50 steps=240/400 success_ever=1 seconds=65.6
+STEP_PROGRESS task=lift condition=clean episode=40/50 steps=320/400 success_ever=1 seconds=87.7
+STEP_PROGRESS task=lift condition=clean episode=40/50 steps=400/400 success_ever=1 seconds=109.1
+EPISODE_DONE task=lift condition=clean episode=40/50 seed=10039 success=1 seconds=109.1
+TASK_RESTORE_EVAL_FINISHED task=lift condition=clean successes=5/5

@@ -1,0 +1,44 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name NutAssemblySquare
+Action size is 7
+STEP_PROGRESS task=square condition=clean episode=21/50 steps=80/400 success_ever=0 seconds=26.7
+STEP_PROGRESS task=square condition=clean episode=21/50 steps=160/400 success_ever=0 seconds=48.9
+STEP_PROGRESS task=square condition=clean episode=21/50 steps=240/400 success_ever=1 seconds=71.2
+STEP_PROGRESS task=square condition=clean episode=21/50 steps=320/400 success_ever=1 seconds=93.9
+STEP_PROGRESS task=square condition=clean episode=21/50 steps=400/400 success_ever=1 seconds=115.4
+EPISODE_DONE task=square condition=clean episode=21/50 seed=10020 success=1 seconds=115.4
+STEP_PROGRESS task=square condition=clean episode=22/50 steps=80/400 success_ever=0 seconds=21.9
+STEP_PROGRESS task=square condition=clean episode=22/50 steps=160/400 success_ever=1 seconds=44.7
+STEP_PROGRESS task=square condition=clean episode=22/50 steps=240/400 success_ever=1 seconds=66.2
+STEP_PROGRESS task=square condition=clean episode=22/50 steps=320/400 success_ever=1 seconds=87.5
+STEP_PROGRESS task=square condition=clean episode=22/50 steps=400/400 success_ever=1 seconds=109.5
+EPISODE_DONE task=square condition=clean episode=22/50 seed=10021 success=1 seconds=109.5
+STEP_PROGRESS task=square condition=clean episode=23/50 steps=80/400 success_ever=0 seconds=21.7
+STEP_PROGRESS task=square condition=clean episode=23/50 steps=160/400 success_ever=0 seconds=43.5
+STEP_PROGRESS task=square condition=clean episode=23/50 steps=240/400 success_ever=0 seconds=65.2
+STEP_PROGRESS task=square condition=clean episode=23/50 steps=320/400 success_ever=0 seconds=87.3
+STEP_PROGRESS task=square condition=clean episode=23/50 steps=400/400 success_ever=0 seconds=108.7
+EPISODE_DONE task=square condition=clean episode=23/50 seed=10022 success=0 seconds=108.7
+STEP_PROGRESS task=square condition=clean episode=24/50 steps=80/400 success_ever=0 seconds=21.7
+STEP_PROGRESS task=square condition=clean episode=24/50 steps=160/400 success_ever=1 seconds=43.2
+STEP_PROGRESS task=square condition=clean episode=24/50 steps=240/400 success_ever=1 seconds=64.9
+STEP_PROGRESS task=square condition=clean episode=24/50 steps=320/400 success_ever=1 seconds=86.0
+STEP_PROGRESS task=square condition=clean episode=24/50 steps=400/400 success_ever=1 seconds=108.0
+EPISODE_DONE task=square condition=clean episode=24/50 seed=10023 success=1 seconds=108.0
+STEP_PROGRESS task=square condition=clean episode=25/50 steps=80/400 success_ever=0 seconds=23.0
+STEP_PROGRESS task=square condition=clean episode=25/50 steps=160/400 success_ever=0 seconds=45.3
+STEP_PROGRESS task=square condition=clean episode=25/50 steps=240/400 success_ever=1 seconds=67.5
+STEP_PROGRESS task=square condition=clean episode=25/50 steps=320/400 success_ever=1 seconds=89.7
+STEP_PROGRESS task=square condition=clean episode=25/50 steps=400/400 success_ever=1 seconds=111.4
+EPISODE_DONE task=square condition=clean episode=25/50 seed=10024 success=1 seconds=111.4
+TASK_RESTORE_EVAL_FINISHED task=square condition=clean successes=4/5

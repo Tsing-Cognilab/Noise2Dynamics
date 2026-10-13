@@ -1,0 +1,27 @@
+{
+  "stage": "baseline",
+  "tasks": [
+    "lift",
+    "can",
+    "square"
+  ],
+  "conditions": [
+    "clean",
+    "shot_read_medium"
+  ],
+  "episodes": 1,
+  "start_seed": 10000,
+  "source_archive_sha256": "c63f8d56279b85d622e0ecb4984c4dcf8b04231d59d10aab446747127bb61835",
+  "source_checkpoints": {
+    "lift": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "can": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "square": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524"
+  },
+  "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+  "launcher_sha256": "de5244ccd503339c4cec40055c408c7acef58eceab6224bb5cc68eeda403233a",
+  "state_banks": {
+    "lift": "74cf051801023bf3502cc88f8d1d2e1184c1e26dc3f8271628f452814ef57d9b",
+    "can": "30d53a0510f5a373ad8dd834a37ea83219e86c2f23c48db9d1a22987fd347359",
+    "square": "aee801866d517880bed7d5da39120cea7cf326e8e8fab39399d4101f21fb2432"
+  }
+}

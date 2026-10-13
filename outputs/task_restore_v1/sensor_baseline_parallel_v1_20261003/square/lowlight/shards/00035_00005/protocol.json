@@ -1,0 +1,90 @@
+{
+  "task": "square",
+  "condition": "lowlight",
+  "noise": {
+    "exposure": 0.25,
+    "gain": 0.004,
+    "read": 0.008,
+    "correlated": false
+  },
+  "episodes": 50,
+  "start_seed": 10000,
+  "max_steps": 400,
+  "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "inference_steps": 100,
+  "env_metadata": {
+    "type": 1,
+    "env_name": "NutAssemblySquare",
+    "env_kwargs": {
+      "has_renderer": false,
+      "has_offscreen_renderer": false,
+      "ignore_done": true,
+      "use_object_obs": false,
+      "use_camera_obs": false,
+      "reward_shaping": false,
+      "control_freq": 20,
+      "controller_configs": {
+        "type": "OSC_POSE",
+        "input_max": 1,
+        "input_min": -1,
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "kp": 150,
+        "damping": 1,
+        "impedance_mode": "fixed",
+        "kp_limits": [
+          0,
+          300
+        ],
+        "damping_limits": [
+          0,
+          10
+        ],
+        "position_limits": null,
+        "orientation_limits": null,
+        "uncouple_pos_ori": true,
+        "control_delta": false,
+        "interpolation": null,
+        "ramp_ratio": 0.2
+      },
+      "robots": [
+        "Panda"
+      ],
+      "camera_names": [
+        "agentview",
+        "robot0_eye_in_hand"
+      ],
+      "camera_depths": false,
+      "camera_heights": 84,
+      "camera_widths": 84,
+      "hard_reset": false
+    }
+  },
+  "source": "published_diffusion_policy_transformer_train_0",
+  "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+  "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+  "initialization": "explicit shared XML + float64 simulator state",
+  "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+  "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+  "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+  "episode_offset": 35,
+  "episode_count": 5,
+  "video_episodes": 2,
+  "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+}

@@ -1,0 +1,1 @@
+{"seed": 10000, "success_ever": true, "success_final": true, "first_success_step": 134, "steps": 400, "wall_seconds": 155.73785599297844, "inference_seconds": 29.30503192730248, "initial_state_sha256": "7a5405e4dc3511dba9043db326c31a1732b23d785c5b30b56c31e018e7f4265c", "task": "square", "condition": "clean"}

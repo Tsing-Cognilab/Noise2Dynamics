@@ -1,0 +1,76 @@
+Created environment with name NutAssemblySquare
+Action size is 7
+DATA_REPLAY task=square split=train demo=demo_1 samples=31 seconds=16.7
+DATA_REPLAY task=square split=train demo=demo_2 samples=62 seconds=31.8
+DATA_REPLAY task=square split=train demo=demo_3 samples=100 seconds=49.2
+DATA_REPLAY task=square split=train demo=demo_4 samples=139 seconds=66.7
+DATA_REPLAY task=square split=train demo=demo_6 samples=175 seconds=83.4
+DATA_REPLAY task=square split=train demo=demo_7 samples=213 seconds=100.8
+DATA_REPLAY task=square split=train demo=demo_8 samples=253 seconds=119.1
+DATA_REPLAY task=square split=train demo=demo_9 samples=291 seconds=136.8
+DATA_REPLAY task=square split=train demo=demo_10 samples=325 seconds=152.7
+DATA_REPLAY task=square split=train demo=demo_11 samples=364 seconds=170.7
+DATA_REPLAY task=square split=train demo=demo_12 samples=398 seconds=186.0
+DATA_REPLAY task=square split=train demo=demo_13 samples=437 seconds=204.1
+DATA_REPLAY task=square split=train demo=demo_15 samples=473 seconds=220.8
+DATA_REPLAY task=square split=train demo=demo_16 samples=517 seconds=240.4
+DATA_REPLAY task=square split=train demo=demo_17 samples=561 seconds=260.0
+DATA_REPLAY task=square split=train demo=demo_18 samples=593 seconds=275.1
+DATA_REPLAY task=square split=train demo=demo_19 samples=635 seconds=293.9
+DATA_REPLAY task=square split=train demo=demo_20 samples=672 seconds=310.9
+DATA_REPLAY task=square split=train demo=demo_22 samples=705 seconds=326.3
+DATA_REPLAY task=square split=train demo=demo_23 samples=749 seconds=346.3
+DATA_REPLAY task=square split=train demo=demo_24 samples=788 seconds=364.2
+DATA_REPLAY task=square split=train demo=demo_25 samples=828 seconds=382.5
+DATA_REPLAY task=square split=train demo=demo_26 samples=874 seconds=403.0
+DATA_REPLAY task=square split=train demo=demo_28 samples=908 seconds=418.5
+DATA_REPLAY task=square split=valid demo=demo_0 samples=32 seconds=434.2
+DATA_REPLAY task=square split=valid demo=demo_5 samples=68 seconds=450.9
+DATA_REPLAY task=square split=valid demo=demo_14 samples=106 seconds=468.4
+DATA_REPLAY task=square split=valid demo=demo_21 samples=151 seconds=488.4
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_gripper_qpos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+DATA_TEACHER task=square split=train samples=32/908
+DATA_TEACHER task=square split=train samples=64/908
+DATA_TEACHER task=square split=train samples=96/908
+DATA_TEACHER task=square split=train samples=128/908
+DATA_TEACHER task=square split=train samples=160/908
+DATA_TEACHER task=square split=train samples=192/908
+DATA_TEACHER task=square split=train samples=224/908
+DATA_TEACHER task=square split=train samples=256/908
+DATA_TEACHER task=square split=train samples=288/908
+DATA_TEACHER task=square split=train samples=320/908
+DATA_TEACHER task=square split=train samples=352/908
+DATA_TEACHER task=square split=train samples=384/908
+DATA_TEACHER task=square split=train samples=416/908
+DATA_TEACHER task=square split=train samples=448/908
+DATA_TEACHER task=square split=train samples=480/908
+DATA_TEACHER task=square split=train samples=512/908
+DATA_TEACHER task=square split=train samples=544/908
+DATA_TEACHER task=square split=train samples=576/908
+DATA_TEACHER task=square split=train samples=608/908
+DATA_TEACHER task=square split=train samples=640/908
+DATA_TEACHER task=square split=train samples=672/908
+DATA_TEACHER task=square split=train samples=704/908
+DATA_TEACHER task=square split=train samples=736/908
+DATA_TEACHER task=square split=train samples=768/908
+DATA_TEACHER task=square split=train samples=800/908
+DATA_TEACHER task=square split=train samples=832/908
+DATA_TEACHER task=square split=train samples=864/908
+DATA_TEACHER task=square split=train samples=896/908
+DATA_TEACHER task=square split=train samples=908/908
+DATA_TEACHER task=square split=valid samples=32/151
+DATA_TEACHER task=square split=valid samples=64/151
+DATA_TEACHER task=square split=valid samples=96/151
+DATA_TEACHER task=square split=valid samples=128/151
+DATA_TEACHER task=square split=valid samples=151/151
+METHOD_DATA_FINISHED task=square seconds=512.2

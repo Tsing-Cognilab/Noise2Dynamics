@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "square",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "NutAssemblySquare",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 40,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 1.0,
+  "final_success_rate": 1.0,
+  "successes": 5,
+  "episodes": 5,
+  "mean_episode_seconds": 111.97214886313304,
+  "current_run_seconds": 573.7798954921309,
+  "rows": [
+    {
+      "seed": 10040,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 155,
+      "steps": 400,
+      "wall_seconds": 115.00448671798222,
+      "inference_seconds": 33.21356444689445,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "e76c1bdf5a4138feb4978a9a6e0b2cd7eaff372adfdee80c8c7d011d3782d803",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "76d43473860beb52c6e2e7f53d21033718633b28ae5917143216f3cd0b050e74",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10041,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 137,
+      "steps": 400,
+      "wall_seconds": 112.69172325404361,
+      "inference_seconds": 31.963907876284793,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "47fbd01510732c39c6531026a84eb78506c7951669b4dc219e9d73cd64aed033",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "b4c8d07df7271b54fbad4da3ad1edcb644d472e1760714f6dcd808bff5a5b476",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10042,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 115,
+      "steps": 400,
+      "wall_seconds": 112.5564439590089,
+      "inference_seconds": 32.24727339693345,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "2f679b13730e417d2e7972c0520942b1594d1626a43e01b88818317f3def5c3a",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "ad1910750e0df30850e45da19a3719476e80be6774bf75856ce0f7cff945bf25",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10043,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 166,
+      "steps": 400,
+      "wall_seconds": 108.20091056078672,
+      "inference_seconds": 30.6849847137928,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "b20a59b2296b44902cb76572fb2e47d0e39c5836241c3eab54205036a3ede065",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "5de71a4aba9150862eb87d70a6ac0e63084fe4031c8b9fc82db7552baaed7a2b",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10044,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 145,
+      "steps": 400,
+      "wall_seconds": 111.40717982384376,
+      "inference_seconds": 32.118282445007935,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "8c29c0257644a923d7080856a0ae5c5fb8f10594d625a5492129c5ee418958a8",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "c37e7df0da42b0a8248406f0cd14176f08c0088f49da67144014744beb245a81",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "square",
+    "condition": "clean",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.0,
+      "read": 0.0,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "NutAssemblySquare",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "3e2aae2c5721e821f1d6a35e655511c1f568093e0765396055f76f6957409aeb",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 5,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.6,
+  "final_success_rate": 0.6,
+  "successes": 3,
+  "episodes": 5,
+  "mean_episode_seconds": 111.90712622408755,
+  "current_run_seconds": 574.5221567959525,
+  "rows": [
+    {
+      "seed": 10005,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 141,
+      "steps": 400,
+      "wall_seconds": 114.39294521603733,
+      "inference_seconds": 31.095840093214065,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "41aa211e7295f3cbeaaaeb9871c469c3bfbfad7ab2a9badc4fd10b11a9bbaa67",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "30017ad9f8bc43716f4f8b913c1188324415376755550823a7474177550dffe9",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10006,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 110.71986520686187,
+      "inference_seconds": 29.871990089770406,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "d36397728a784c77cc4807d7f0c3bcf3f95b26f3214232a1bbb86c61fd386cf5",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "04321db58f40072aa0bf32fdf236012920315bec10d5c57b35e755e4b6ae574c",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10007,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 112.08327512280084,
+      "inference_seconds": 31.43522687582299,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "8a76b1a83fc528d3e4decb5175e83c2e004c8b1166bb91e01b889988a2824808",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "00b2be903dce03ead807df4e299e9d161f0939eec5e6c00a4dece25c18b0ae78",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "seed": 10008,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 176,
+      "steps": 400,
+      "wall_seconds": 111.33617417188361,
+      "inference_seconds": 31.51996262348257,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "d1cd00a899aa68aacd5075cd0e98516ab77318cfd63d561152af4901e2b6abcd",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "0773dcd15e8d496df199fd241812d153bbed23ec4e9ccce61f93d3ee1e21041b",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10009,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 152,
+      "steps": 400,
+      "wall_seconds": 111.0033714028541,
+      "inference_seconds": 30.548140942119062,
+      "task": "square",
+      "condition": "clean",
+      "initial_state_sha256": "af179ead4aee7803a7b6876ba9503bf0170ac23538b2b81eba5034bb31772fb4",
+      "initial_model_sha256": "b2f2d623c7532abf932218326461b7840bf969b941f9031f50102283e4433441",
+      "state_bank_entry_sha256": "015c5deb76e0fc2c82c692bafd882cafcede1b6e98391385bf45ce7b08bf1515",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

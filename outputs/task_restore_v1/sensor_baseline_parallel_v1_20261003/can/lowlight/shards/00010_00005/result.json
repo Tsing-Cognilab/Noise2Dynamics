@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "can",
+    "condition": "lowlight",
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "PickPlaceCan",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "9bd9daab3243c30f6010d0da745e452d9caf253337192c9833a5984f4f7e1576",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 10,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.0,
+  "final_success_rate": 0.0,
+  "successes": 0,
+  "episodes": 5,
+  "mean_episode_seconds": 113.07518971618265,
+  "current_run_seconds": 580.4877188289538,
+  "rows": [
+    {
+      "seed": 10010,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 116.0941518410109,
+      "inference_seconds": 30.572042039362714,
+      "task": "can",
+      "condition": "lowlight",
+      "initial_state_sha256": "6c2cb241f3aac4136b90dd7250484b9bc17046a6cdeb8e93666039a3cff32474",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "949c51103619493e28f853513ebda931c12bc07c940a25af06a774bdb3e8f81c",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10011,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 111.47346417303197,
+      "inference_seconds": 30.400547659723088,
+      "task": "can",
+      "condition": "lowlight",
+      "initial_state_sha256": "3e79934a7926809fe2932828340e43454e2f31711484ccb4f48083af0c15b5b7",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "79054bd544bf9f5a3e502db4fd7787d2254bd7394a4f1b317d56cfacb8de584d",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10012,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 114.20524051785469,
+      "inference_seconds": 32.10079582082108,
+      "task": "can",
+      "condition": "lowlight",
+      "initial_state_sha256": "905cbaaffa34c1e0ae92c61b6fb82d2d5aebac71c5b045b3c3ae7d944defe854",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "56ab8c8776350aea65d6c160d41906e203be9c4d56933b6e80ceeb94cfb1f5e4",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10013,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 112.80925636505708,
+      "inference_seconds": 32.08910130360164,
+      "task": "can",
+      "condition": "lowlight",
+      "initial_state_sha256": "134ada0a322d0a4a3c6a03f0d57639b29aff88b28b5ab282a21b5f7aa5b9b9ae",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "ff24deb6f66c3e85b79519300201fba515e117754a7406c39565ad3657a028e9",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10014,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 110.7938356839586,
+      "inference_seconds": 30.520366497337818,
+      "task": "can",
+      "condition": "lowlight",
+      "initial_state_sha256": "aa4c13663c7bb1a794444f0b2dcfc336607faa9ad2091e3d3af812df855a8bfc",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "8bf68967ce3ff39c0637b5fe6056aebe82327a13a6b4f353927719350ceba0b3",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

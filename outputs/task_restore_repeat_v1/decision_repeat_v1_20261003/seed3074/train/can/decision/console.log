@@ -1,0 +1,34 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_gripper_qpos', 'robot0_eef_pos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+DECISION_GRADIENT_OK gradient_sum=13.5666
+TRAIN_PROGRESS task=can arm=decision update=1/2000 image=0.15858 decision=0.05500 seconds=0.6
+TRAIN_PROGRESS task=can arm=decision update=100/2000 image=0.09625 decision=0.02591 seconds=7.7
+TRAIN_PROGRESS task=can arm=decision update=200/2000 image=0.06310 decision=0.00311 seconds=15.1
+TRAIN_PROGRESS task=can arm=decision update=300/2000 image=0.05000 decision=0.02387 seconds=22.4
+TRAIN_PROGRESS task=can arm=decision update=400/2000 image=0.04718 decision=0.00089 seconds=29.7
+TRAIN_PROGRESS task=can arm=decision update=500/2000 image=0.04300 decision=0.00014 seconds=37.1
+TRAIN_PROGRESS task=can arm=decision update=600/2000 image=0.04244 decision=0.00036 seconds=44.4
+TRAIN_PROGRESS task=can arm=decision update=700/2000 image=0.05069 decision=0.00185 seconds=51.7
+TRAIN_PROGRESS task=can arm=decision update=800/2000 image=0.04118 decision=0.00017 seconds=59.1
+TRAIN_PROGRESS task=can arm=decision update=900/2000 image=0.04366 decision=0.00715 seconds=66.4
+TRAIN_PROGRESS task=can arm=decision update=1000/2000 image=0.04076 decision=0.00028 seconds=73.7
+TRAIN_PROGRESS task=can arm=decision update=1100/2000 image=0.02886 decision=0.00033 seconds=81.1
+TRAIN_PROGRESS task=can arm=decision update=1200/2000 image=0.04031 decision=0.00093 seconds=88.4
+TRAIN_PROGRESS task=can arm=decision update=1300/2000 image=0.03125 decision=0.00017 seconds=95.7
+TRAIN_PROGRESS task=can arm=decision update=1400/2000 image=0.03557 decision=0.00017 seconds=103.1
+TRAIN_PROGRESS task=can arm=decision update=1500/2000 image=0.04100 decision=0.00034 seconds=110.4
+TRAIN_PROGRESS task=can arm=decision update=1600/2000 image=0.03025 decision=0.00015 seconds=117.6
+TRAIN_PROGRESS task=can arm=decision update=1700/2000 image=0.03602 decision=0.00005 seconds=125.0
+TRAIN_PROGRESS task=can arm=decision update=1800/2000 image=0.03183 decision=0.00015 seconds=132.3
+TRAIN_PROGRESS task=can arm=decision update=1900/2000 image=0.03087 decision=0.00048 seconds=139.6
+TRAIN_PROGRESS task=can arm=decision update=2000/2000 image=0.02810 decision=0.00018 seconds=146.6
+METHOD_TRAIN_FINISHED task=can arm=decision seconds=146.7

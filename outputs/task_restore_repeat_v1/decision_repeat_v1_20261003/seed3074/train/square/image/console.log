@@ -1,0 +1,33 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_gripper_qpos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+TRAIN_PROGRESS task=square arm=image update=1/2000 image=0.26341 decision=0.01440 seconds=0.6
+TRAIN_PROGRESS task=square arm=image update=100/2000 image=0.16797 decision=0.06343 seconds=7.4
+TRAIN_PROGRESS task=square arm=image update=200/2000 image=0.13227 decision=0.02144 seconds=14.4
+TRAIN_PROGRESS task=square arm=image update=300/2000 image=0.06843 decision=0.10483 seconds=21.8
+TRAIN_PROGRESS task=square arm=image update=400/2000 image=0.04221 decision=0.00224 seconds=29.1
+TRAIN_PROGRESS task=square arm=image update=500/2000 image=0.03403 decision=0.00240 seconds=36.5
+TRAIN_PROGRESS task=square arm=image update=600/2000 image=0.03014 decision=0.02736 seconds=43.8
+TRAIN_PROGRESS task=square arm=image update=700/2000 image=0.03117 decision=0.03142 seconds=51.1
+TRAIN_PROGRESS task=square arm=image update=800/2000 image=0.02432 decision=0.00182 seconds=58.4
+TRAIN_PROGRESS task=square arm=image update=900/2000 image=0.02799 decision=0.01843 seconds=65.7
+TRAIN_PROGRESS task=square arm=image update=1000/2000 image=0.02592 decision=0.00530 seconds=73.0
+TRAIN_PROGRESS task=square arm=image update=1100/2000 image=0.02209 decision=0.00881 seconds=80.2
+TRAIN_PROGRESS task=square arm=image update=1200/2000 image=0.02811 decision=0.02142 seconds=87.6
+TRAIN_PROGRESS task=square arm=image update=1300/2000 image=0.01918 decision=0.00608 seconds=94.9
+TRAIN_PROGRESS task=square arm=image update=1400/2000 image=0.02104 decision=0.00232 seconds=102.2
+TRAIN_PROGRESS task=square arm=image update=1500/2000 image=0.02614 decision=0.00086 seconds=109.5
+TRAIN_PROGRESS task=square arm=image update=1600/2000 image=0.02084 decision=0.00119 seconds=116.8
+TRAIN_PROGRESS task=square arm=image update=1700/2000 image=0.02627 decision=0.00074 seconds=124.1
+TRAIN_PROGRESS task=square arm=image update=1800/2000 image=0.02374 decision=0.00592 seconds=131.4
+TRAIN_PROGRESS task=square arm=image update=1900/2000 image=0.02519 decision=0.03123 seconds=138.6
+TRAIN_PROGRESS task=square arm=image update=2000/2000 image=0.02539 decision=0.00308 seconds=145.6
+METHOD_TRAIN_FINISHED task=square arm=image seconds=145.7

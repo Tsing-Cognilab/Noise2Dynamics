@@ -1,0 +1,33 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+FEATURE_PROGRESS task=square seed=3072 update=1/2000 image=0.26302 feature=0.031738
+FEATURE_PROGRESS task=square seed=3072 update=100/2000 image=0.24314 feature=0.035866
+FEATURE_PROGRESS task=square seed=3072 update=200/2000 image=0.10953 feature=0.017522
+FEATURE_PROGRESS task=square seed=3072 update=300/2000 image=0.08091 feature=0.011764
+FEATURE_PROGRESS task=square seed=3072 update=400/2000 image=0.04053 feature=0.001774
+FEATURE_PROGRESS task=square seed=3072 update=500/2000 image=0.03713 feature=0.002639
+FEATURE_PROGRESS task=square seed=3072 update=600/2000 image=0.03249 feature=0.001869
+FEATURE_PROGRESS task=square seed=3072 update=700/2000 image=0.02290 feature=0.001380
+FEATURE_PROGRESS task=square seed=3072 update=800/2000 image=0.02921 feature=0.001332
+FEATURE_PROGRESS task=square seed=3072 update=900/2000 image=0.02488 feature=0.001571
+FEATURE_PROGRESS task=square seed=3072 update=1000/2000 image=0.02036 feature=0.000540
+FEATURE_PROGRESS task=square seed=3072 update=1100/2000 image=0.03095 feature=0.001264
+FEATURE_PROGRESS task=square seed=3072 update=1200/2000 image=0.02234 feature=0.000699
+FEATURE_PROGRESS task=square seed=3072 update=1300/2000 image=0.01969 feature=0.001601
+FEATURE_PROGRESS task=square seed=3072 update=1400/2000 image=0.02462 feature=0.001092
+FEATURE_PROGRESS task=square seed=3072 update=1500/2000 image=0.02134 feature=0.001388
+FEATURE_PROGRESS task=square seed=3072 update=1600/2000 image=0.01433 feature=0.000460
+FEATURE_PROGRESS task=square seed=3072 update=1700/2000 image=0.02330 feature=0.000895
+FEATURE_PROGRESS task=square seed=3072 update=1800/2000 image=0.01782 feature=0.002549
+FEATURE_PROGRESS task=square seed=3072 update=1900/2000 image=0.02042 feature=0.002044
+FEATURE_PROGRESS task=square seed=3072 update=2000/2000 image=0.02323 feature=0.000771
+FEATURE_TRAIN_FINISHED task=square seed=3072

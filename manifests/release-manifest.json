@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "repository": "Audience2Li/Noise2Dynamics",
+  "tag": "cvm-assets-20261013",
+  "packages": [
+    {
+      "name": "cvm-datasets.tar.zst",
+      "bytes": 108303187,
+      "sha256": "f20e1fd5f5a14bcd1873bfe6adecf0e4beddf599d9842290463e8fe16070e3c5",
+      "parts": [
+        {
+          "name": "cvm-datasets.tar.zst",
+          "bytes": 108303187,
+          "sha256": "f20e1fd5f5a14bcd1873bfe6adecf0e4beddf599d9842290463e8fe16070e3c5"
+        }
+      ]
+    },
+    {
+      "name": "cvm-models.tar.zst",
+      "bytes": 2146477401,
+      "sha256": "c7b7d7077a2e24bc3583cc394395ebaed17fea04ca7670b28ac065f771f5dd73",
+      "parts": [
+        {
+          "name": "cvm-models.tar.zst.part001",
+          "bytes": 134217728,
+          "sha256": "b4c6ed2fe31daf4805f2b9c02f216d21397880afe89c54b09ab1337430f9f6ed"
+        },
+        {
+          "name": "cvm-models.tar.zst.part002",
+          "bytes": 134217728,
+          "sha256": "1ae7223d65d21cc8d0b35cb42bf64c53d60fd6cc59ff343c250b572117059f69"
+        },
+        {
+          "name": "cvm-models.tar.zst.part003",
+          "bytes": 134217728,
+          "sha256": "0485016944758c517e3769f79cf3b4f830aeaba9e6dc1ad5492e5533322a6448"
+        },
+        {
+          "name": "cvm-models.tar.zst.part004",
+          "bytes": 134217728,
+          "sha256": "43e26276e181573888b844017c890872b7f156c1c006314d6d12e9b4a05517ca"
+        },
+        {
+          "name": "cvm-models.tar.zst.part005",
+          "bytes": 134217728,
+          "sha256": "c31989fa3540eb48ac4ce905b4ba6215763dc77c14a8e50b7eae6867350def01"
+        },
+        {
+          "name": "cvm-models.tar.zst.part006",
+          "bytes": 134217728,
+          "sha256": "81c64065b5949460ef85f77a20ef8da4c206ad03b46532ade113db106dc03a3e"
+        },
+        {
+          "name": "cvm-models.tar.zst.part007",
+          "bytes": 134217728,
+          "sha256": "88c43a9173905dbdc77ee5dda0a632d672b84d0c533cc34315d6208a0eeaa304"
+        },
+        {
+          "name": "cvm-models.tar.zst.part008",
+          "bytes": 134217728,
+          "sha256": "81c918027870bff5dad59cc1cdc34348103a82f6167acb247b8c4af0a3c14408"
+        },
+        {
+          "name": "cvm-models.tar.zst.part009",
+          "bytes": 134217728,
+          "sha256": "97a88e43610021be2c6b803a5a9f1034c1730215fa15b4cf69a23218030d4ba5"
+        },
+        {
+          "name": "cvm-models.tar.zst.part010",
+          "bytes": 134217728,
+          "sha256": "b99ced02636ab2359e13c4aa671ef22052b8d580d94ccb8d49bc7eca2a8a4b14"
+        },
+        {
+          "name": "cvm-models.tar.zst.part011",
+          "bytes": 134217728,
+          "sha256": "be201c0cf78e8326eede36173f03f0b6f478cb932b8039ae9cc82b7a7e5cfe2b"
+        },
+        {
+          "name": "cvm-models.tar.zst.part012",
+          "bytes": 134217728,
+          "sha256": "0740ffa328f404f30f5fe8dd3d8ba46d25cecc030d0932dab910306979bc19c5"
+        },
+        {
+          "name": "cvm-models.tar.zst.part013",
+          "bytes": 134217728,
+          "sha256": "9a62df8dac3b838fff1028f24b232013f88f6960b3231399fe23089d18fac95e"
+        },
+        {
+          "name": "cvm-models.tar.zst.part014",
+          "bytes": 134217728,
+          "sha256": "7698dc23d86e54747944ea3366790762fdea5bd77a6987288629a61562987493"
+        },
+        {
+          "name": "cvm-models.tar.zst.part015",
+          "bytes": 134217728,
+          "sha256": "f0040a395447c66946e61af0b7944a098c9207592bfa19c1834cc17fb919302a"
+        },
+        {
+          "name": "cvm-models.tar.zst.part016",
+          "bytes": 133211481,
+          "sha256": "5fe51a0a7114042b980d3db3d96bde31a17d6a355280bf2118a2a3d67560ece6"
+        }
+      ]
+    },
+    {
+      "name": "cvm-resources.tar.zst",
+      "bytes": 34571042,
+      "sha256": "a504ad5c36e31f0544a3174a4dfb7c84e0fb0d67112a6217efbf475dde0d45ce",
+      "parts": [
+        {
+          "name": "cvm-resources.tar.zst",
+          "bytes": 34571042,
+          "sha256": "a504ad5c36e31f0544a3174a4dfb7c84e0fb0d67112a6217efbf475dde0d45ce"
+        }
+      ]
+    }
+  ]
+}

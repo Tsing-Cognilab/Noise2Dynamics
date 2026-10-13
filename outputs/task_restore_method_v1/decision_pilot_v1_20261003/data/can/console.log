@@ -1,0 +1,68 @@
+Created environment with name PickPlaceCan
+Action size is 7
+DATA_REPLAY task=can split=train demo=demo_1 samples=30 seconds=16.9
+DATA_REPLAY task=can split=train demo=demo_2 samples=59 seconds=31.5
+DATA_REPLAY task=can split=train demo=demo_3 samples=84 seconds=44.3
+DATA_REPLAY task=can split=train demo=demo_4 samples=110 seconds=57.5
+DATA_REPLAY task=can split=train demo=demo_6 samples=139 seconds=72.0
+DATA_REPLAY task=can split=train demo=demo_7 samples=168 seconds=86.6
+DATA_REPLAY task=can split=train demo=demo_8 samples=200 seconds=102.1
+DATA_REPLAY task=can split=train demo=demo_9 samples=230 seconds=116.9
+DATA_REPLAY task=can split=train demo=demo_10 samples=263 seconds=133.2
+DATA_REPLAY task=can split=train demo=demo_11 samples=287 seconds=145.6
+DATA_REPLAY task=can split=train demo=demo_12 samples=316 seconds=160.0
+DATA_REPLAY task=can split=train demo=demo_13 samples=349 seconds=176.3
+DATA_REPLAY task=can split=train demo=demo_15 samples=373 seconds=188.6
+DATA_REPLAY task=can split=train demo=demo_16 samples=407 seconds=205.5
+DATA_REPLAY task=can split=train demo=demo_17 samples=434 seconds=219.2
+DATA_REPLAY task=can split=train demo=demo_18 samples=458 seconds=231.6
+DATA_REPLAY task=can split=train demo=demo_19 samples=486 seconds=245.6
+DATA_REPLAY task=can split=train demo=demo_20 samples=509 seconds=257.5
+DATA_REPLAY task=can split=train demo=demo_22 samples=535 seconds=270.8
+DATA_REPLAY task=can split=train demo=demo_23 samples=571 seconds=288.2
+DATA_REPLAY task=can split=train demo=demo_24 samples=598 seconds=301.3
+DATA_REPLAY task=can split=train demo=demo_25 samples=631 seconds=317.6
+DATA_REPLAY task=can split=train demo=demo_26 samples=659 seconds=331.3
+DATA_REPLAY task=can split=train demo=demo_28 samples=695 seconds=348.5
+DATA_REPLAY task=can split=valid demo=demo_0 samples=30 seconds=363.3
+DATA_REPLAY task=can split=valid demo=demo_5 samples=64 seconds=379.9
+DATA_REPLAY task=can split=valid demo=demo_14 samples=93 seconds=394.4
+DATA_REPLAY task=can split=valid demo=demo_21 samples=118 seconds=407.0
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_eef_quat', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+DATA_TEACHER task=can split=train samples=32/695
+DATA_TEACHER task=can split=train samples=64/695
+DATA_TEACHER task=can split=train samples=96/695
+DATA_TEACHER task=can split=train samples=128/695
+DATA_TEACHER task=can split=train samples=160/695
+DATA_TEACHER task=can split=train samples=192/695
+DATA_TEACHER task=can split=train samples=224/695
+DATA_TEACHER task=can split=train samples=256/695
+DATA_TEACHER task=can split=train samples=288/695
+DATA_TEACHER task=can split=train samples=320/695
+DATA_TEACHER task=can split=train samples=352/695
+DATA_TEACHER task=can split=train samples=384/695
+DATA_TEACHER task=can split=train samples=416/695
+DATA_TEACHER task=can split=train samples=448/695
+DATA_TEACHER task=can split=train samples=480/695
+DATA_TEACHER task=can split=train samples=512/695
+DATA_TEACHER task=can split=train samples=544/695
+DATA_TEACHER task=can split=train samples=576/695
+DATA_TEACHER task=can split=train samples=608/695
+DATA_TEACHER task=can split=train samples=640/695
+DATA_TEACHER task=can split=train samples=672/695
+DATA_TEACHER task=can split=train samples=695/695
+DATA_TEACHER task=can split=valid samples=32/118
+DATA_TEACHER task=can split=valid samples=64/118
+DATA_TEACHER task=can split=valid samples=96/118
+DATA_TEACHER task=can split=valid samples=118/118
+METHOD_DATA_FINISHED task=can seconds=426.1

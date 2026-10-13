@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "lift",
+    "condition": "lowlight",
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "Lift",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "39b1585bc48250c9fa5e17220861529b4d16e11ffd91df802472d8e447392c0b",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 30,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 0.8,
+  "final_success_rate": 0.6,
+  "successes": 4,
+  "episodes": 5,
+  "mean_episode_seconds": 111.45769340801053,
+  "current_run_seconds": 568.6032899140846,
+  "rows": [
+    {
+      "seed": 10030,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 206,
+      "steps": 400,
+      "wall_seconds": 116.58947715302929,
+      "inference_seconds": 32.94064066349529,
+      "task": "lift",
+      "condition": "lowlight",
+      "initial_state_sha256": "9554ffb36d6a5cdd8d93dcba88ef227ca079d48de006389409ea78fe242c8359",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "40dd98850ca0109dba9667e3f174ae77c5773112740a53fb1b34bfcbabd0e8d5",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10031,
+      "success_ever": false,
+      "success_final": false,
+      "first_success_step": null,
+      "steps": 400,
+      "wall_seconds": 110.86953055392951,
+      "inference_seconds": 31.891828761901706,
+      "task": "lift",
+      "condition": "lowlight",
+      "initial_state_sha256": "3004b075a7a529c8f710ddfab1f3dae54ecc6ba08d1e2841e45636fdf822022e",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "20154328d9650779fa7068d2697a90e11f4c648abfcaebcda93bb67ce79a43e1",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10032,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 157,
+      "steps": 400,
+      "wall_seconds": 110.57930783601478,
+      "inference_seconds": 31.500787223689258,
+      "task": "lift",
+      "condition": "lowlight",
+      "initial_state_sha256": "ac35e9fea6e815cf49be0fc42a55cc13fe1b1dd2f238f34a3c84ba4ff7212592",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "7f256fd6e9b128eca70614b57b92fe029032aa8592e526136482e827c1109867",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10033,
+      "success_ever": true,
+      "success_final": false,
+      "first_success_step": 76,
+      "steps": 400,
+      "wall_seconds": 109.35005551809445,
+      "inference_seconds": 30.67486370448023,
+      "task": "lift",
+      "condition": "lowlight",
+      "initial_state_sha256": "91070f9ab7b07fbdf84163220cc73a288f0cd9ed9b12d02bfb5efdc55d81864f",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "9a3825cc72cf3e6f3ac35db4152a230ba2875754ad6bc69355b2434ab70e7a86",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10034,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 259,
+      "steps": 400,
+      "wall_seconds": 109.90009597898461,
+      "inference_seconds": 30.70671322965063,
+      "task": "lift",
+      "condition": "lowlight",
+      "initial_state_sha256": "000a7bdbd7b2e384a370ccbb123817cd95e23cd5cfa0155c7511c2cea4e5543e",
+      "initial_model_sha256": "0f7f7386b781e9575243ef331d38a2e0021e05d62ec9b4585606ec4663430197",
+      "state_bank_entry_sha256": "0390e723c82a309f70ee674fc92d52c65bc1aec8e0b18d0e7ded5c8d620799a2",
+      "initial_state_bank_max_abs_error": 0.0
+    }
+  ]
+}

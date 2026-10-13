@@ -1,0 +1,19 @@
+{
+  "stage": "smoke",
+  "tasks": [
+    "lift",
+    "can",
+    "square"
+  ],
+  "conditions": [
+    "shot_read_medium"
+  ],
+  "episodes": 1,
+  "start_seed": 10000,
+  "source_archive_sha256": "c63f8d56279b85d622e0ecb4984c4dcf8b04231d59d10aab446747127bb61835",
+  "source_checkpoints": {
+    "lift": "37a2c5ad87c8413a6b132b9d611f836bd651154df414a32add51d788232e576b",
+    "can": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "square": "01df79d988b817a97853ecd9b1757f98392987c1d0f5d9963a6bd85dbd24e524"
+  }
+}

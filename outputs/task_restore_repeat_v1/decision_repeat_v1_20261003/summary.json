@@ -1,0 +1,701 @@
+{
+  "source": "/data/lizhenhao/lizhenhao/n2d_dreamerv3/outputs/task_restore_method_v1/decision_pilot_v1_20261003",
+  "results": [
+    {
+      "seed": null,
+      "task": "can",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": true
+    },
+    {
+      "seed": null,
+      "task": "can",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "shared_control": true
+    },
+    {
+      "seed": null,
+      "task": "can",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 46,
+      "final": 46,
+      "success_rate": 0.92,
+      "final_success_rate": 0.92,
+      "shared_control": true
+    },
+    {
+      "seed": 3072,
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "success_rate": 0.96,
+      "final_success_rate": 0.96,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "success_rate": 0.96,
+      "final_success_rate": 0.96,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "success_rate": 1.0,
+      "final_success_rate": 1.0,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "success_rate": 0.98,
+      "final_success_rate": 0.98,
+      "shared_control": false
+    },
+    {
+      "seed": null,
+      "task": "square",
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "success_rate": 0.8,
+      "final_success_rate": 0.8,
+      "shared_control": true
+    },
+    {
+      "seed": null,
+      "task": "square",
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "success_rate": 0.0,
+      "final_success_rate": 0.0,
+      "shared_control": true
+    },
+    {
+      "seed": null,
+      "task": "square",
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "shared_control": true
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "success_rate": 0.8,
+      "final_success_rate": 0.8,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 44,
+      "final": 43,
+      "success_rate": 0.88,
+      "final_success_rate": 0.86,
+      "shared_control": false
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "success_rate": 0.96,
+      "final_success_rate": 0.96,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 41,
+      "final": 41,
+      "success_rate": 0.82,
+      "final_success_rate": 0.82,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "success_rate": 0.8,
+      "final_success_rate": 0.8,
+      "shared_control": false
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 44,
+      "final": 44,
+      "success_rate": 0.88,
+      "final_success_rate": 0.88,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 39,
+      "final": 39,
+      "success_rate": 0.78,
+      "final_success_rate": 0.78,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "success_rate": 0.86,
+      "final_success_rate": 0.86,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 42,
+      "final": 42,
+      "success_rate": 0.84,
+      "final_success_rate": 0.84,
+      "shared_control": false
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 50,
+      "ever": 47,
+      "final": 47,
+      "success_rate": 0.94,
+      "final_success_rate": 0.94,
+      "shared_control": false
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "seed": 3072,
+      "task": "can",
+      "condition": "clean",
+      "ever": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3072,
+      "task": "can",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "condition": "clean",
+      "ever": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3073,
+      "task": "can",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 1,
+        "losses": 1,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 1,
+        "losses": 1,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "condition": "clean",
+      "ever": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3074,
+      "task": "can",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      },
+      "final": {
+        "gains": 0,
+        "losses": 0,
+        "delta_pp": 0.0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "condition": "clean",
+      "ever": {
+        "gains": 5,
+        "losses": 1,
+        "delta_pp": 8.0,
+        "exact_two_sided_p": 0.21875
+      },
+      "final": {
+        "gains": 5,
+        "losses": 2,
+        "delta_pp": 6.0,
+        "exact_two_sided_p": 0.453125
+      }
+    },
+    {
+      "seed": 3072,
+      "task": "square",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 5,
+        "losses": 0,
+        "delta_pp": 10.0,
+        "exact_two_sided_p": 0.0625
+      },
+      "final": {
+        "gains": 5,
+        "losses": 0,
+        "delta_pp": 10.0,
+        "exact_two_sided_p": 0.0625
+      }
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "condition": "clean",
+      "ever": {
+        "gains": 3,
+        "losses": 6,
+        "delta_pp": -6.0,
+        "exact_two_sided_p": 0.5078125
+      },
+      "final": {
+        "gains": 3,
+        "losses": 6,
+        "delta_pp": -6.0,
+        "exact_two_sided_p": 0.5078125
+      }
+    },
+    {
+      "seed": 3073,
+      "task": "square",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 6,
+        "losses": 3,
+        "delta_pp": 6.0,
+        "exact_two_sided_p": 0.5078125
+      },
+      "final": {
+        "gains": 6,
+        "losses": 3,
+        "delta_pp": 6.0,
+        "exact_two_sided_p": 0.5078125
+      }
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "condition": "clean",
+      "ever": {
+        "gains": 6,
+        "losses": 3,
+        "delta_pp": 6.0,
+        "exact_two_sided_p": 0.5078125
+      },
+      "final": {
+        "gains": 6,
+        "losses": 3,
+        "delta_pp": 6.0,
+        "exact_two_sided_p": 0.5078125
+      }
+    },
+    {
+      "seed": 3074,
+      "task": "square",
+      "condition": "lowlight",
+      "ever": {
+        "gains": 5,
+        "losses": 1,
+        "delta_pp": 8.0,
+        "exact_two_sided_p": 0.21875
+      },
+      "final": {
+        "gains": 5,
+        "losses": 1,
+        "delta_pp": 8.0,
+        "exact_two_sided_p": 0.21875
+      }
+    }
+  ],
+  "across_training_seeds": [
+    {
+      "task": "can",
+      "condition": "clean",
+      "metric": "success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 100.0,
+      "image_sample_sd_pct": 0.0,
+      "decision_mean_pct": 100.0,
+      "decision_sample_sd_pct": 0.0,
+      "paired_delta_mean_pp": 0.0,
+      "paired_delta_sample_sd_pp": 0.0
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "metric": "final_success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 100.0,
+      "image_sample_sd_pct": 0.0,
+      "decision_mean_pct": 100.0,
+      "decision_sample_sd_pct": 0.0,
+      "paired_delta_mean_pp": 0.0,
+      "paired_delta_sample_sd_pp": 0.0
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "metric": "success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 97.33333333333333,
+      "image_sample_sd_pct": 1.1547005383792515,
+      "decision_mean_pct": 97.33333333333333,
+      "decision_sample_sd_pct": 1.1547005383792515,
+      "paired_delta_mean_pp": 0.0,
+      "paired_delta_sample_sd_pp": 0.0
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "metric": "final_success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 97.33333333333333,
+      "image_sample_sd_pct": 1.1547005383792515,
+      "decision_mean_pct": 97.33333333333333,
+      "decision_sample_sd_pct": 1.1547005383792515,
+      "paired_delta_mean_pp": 0.0,
+      "paired_delta_sample_sd_pp": 0.0
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "metric": "success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 81.33333333333333,
+      "image_sample_sd_pct": 4.163331998932265,
+      "decision_mean_pct": 84.0,
+      "decision_sample_sd_pct": 4.0,
+      "paired_delta_mean_pp": 2.6666666666666665,
+      "paired_delta_sample_sd_pp": 7.571877794400365
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "metric": "final_success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 81.33333333333333,
+      "image_sample_sd_pct": 4.163331998932265,
+      "decision_mean_pct": 83.33333333333333,
+      "decision_sample_sd_pct": 3.0550504633038935,
+      "paired_delta_mean_pp": 2.0,
+      "paired_delta_sample_sd_pp": 6.928203230275509
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "metric": "success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 84.66666666666667,
+      "image_sample_sd_pct": 2.309401076758503,
+      "decision_mean_pct": 92.66666666666667,
+      "decision_sample_sd_pct": 4.163331998932265,
+      "paired_delta_mean_pp": 8.0,
+      "paired_delta_sample_sd_pp": 2.0
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "metric": "final_success_rate",
+      "seeds": [
+        3072,
+        3073,
+        3074
+      ],
+      "image_mean_pct": 84.66666666666667,
+      "image_sample_sd_pct": 2.309401076758503,
+      "decision_mean_pct": 92.66666666666667,
+      "decision_sample_sd_pct": 4.163331998932265,
+      "paired_delta_mean_pp": 8.0,
+      "paired_delta_sample_sd_pp": 2.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_eef_quat', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (168, 84) to (176, 96) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+STEP_PROGRESS task=can condition=shot_read_medium episode=1/50 steps=80/400 success_ever=0 seconds=28.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=1/50 steps=160/400 success_ever=1 seconds=50.7
+STEP_PROGRESS task=can condition=shot_read_medium episode=1/50 steps=240/400 success_ever=1 seconds=72.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=1/50 steps=320/400 success_ever=1 seconds=95.1
+STEP_PROGRESS task=can condition=shot_read_medium episode=1/50 steps=400/400 success_ever=1 seconds=118.0
+EPISODE_DONE task=can condition=shot_read_medium episode=1/50 seed=10000 success=1 seconds=118.1
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (168, 84) to (176, 96) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+STEP_PROGRESS task=can condition=shot_read_medium episode=2/50 steps=80/400 success_ever=0 seconds=23.9
+STEP_PROGRESS task=can condition=shot_read_medium episode=2/50 steps=160/400 success_ever=1 seconds=46.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=2/50 steps=240/400 success_ever=1 seconds=67.6
+STEP_PROGRESS task=can condition=shot_read_medium episode=2/50 steps=320/400 success_ever=1 seconds=89.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=2/50 steps=400/400 success_ever=1 seconds=110.3
+EPISODE_DONE task=can condition=shot_read_medium episode=2/50 seed=10001 success=1 seconds=110.4
+STEP_PROGRESS task=can condition=shot_read_medium episode=3/50 steps=80/400 success_ever=0 seconds=23.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=3/50 steps=160/400 success_ever=1 seconds=46.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=3/50 steps=240/400 success_ever=1 seconds=68.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=3/50 steps=320/400 success_ever=1 seconds=92.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=3/50 steps=400/400 success_ever=1 seconds=116.0
+EPISODE_DONE task=can condition=shot_read_medium episode=3/50 seed=10002 success=1 seconds=116.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=4/50 steps=80/400 success_ever=0 seconds=23.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=4/50 steps=160/400 success_ever=1 seconds=45.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=4/50 steps=240/400 success_ever=1 seconds=67.9
+STEP_PROGRESS task=can condition=shot_read_medium episode=4/50 steps=320/400 success_ever=1 seconds=90.2
+STEP_PROGRESS task=can condition=shot_read_medium episode=4/50 steps=400/400 success_ever=1 seconds=113.1
+EPISODE_DONE task=can condition=shot_read_medium episode=4/50 seed=10003 success=1 seconds=113.1
+STEP_PROGRESS task=can condition=shot_read_medium episode=5/50 steps=80/400 success_ever=0 seconds=23.0
+STEP_PROGRESS task=can condition=shot_read_medium episode=5/50 steps=160/400 success_ever=1 seconds=45.8
+STEP_PROGRESS task=can condition=shot_read_medium episode=5/50 steps=240/400 success_ever=1 seconds=69.3
+STEP_PROGRESS task=can condition=shot_read_medium episode=5/50 steps=320/400 success_ever=1 seconds=91.2
+STEP_PROGRESS task=can condition=shot_read_medium episode=5/50 steps=400/400 success_ever=1 seconds=113.7
+EPISODE_DONE task=can condition=shot_read_medium episode=5/50 seed=10004 success=1 seconds=113.7
+TASK_RESTORE_EVAL_FINISHED task=can condition=shot_read_medium successes=5/5

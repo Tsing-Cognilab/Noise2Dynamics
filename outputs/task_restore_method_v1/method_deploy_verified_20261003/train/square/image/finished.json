@@ -1,0 +1,37 @@
+{
+  "spec": {
+    "task": "square",
+    "arm": "image",
+    "seed": 3072,
+    "updates": 100,
+    "batch_size": 16,
+    "decision_weight": 0.1,
+    "learning_rate": 0.0003,
+    "width": 24,
+    "data_sha256": "76b3f9692aced913e1c76525063ae9435b574cb40e03d15517db7b5f4aa2ffcb",
+    "sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "parameters": 267195,
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "correlated": false
+    },
+    "identity_probability": 0.2,
+    "teacher_frozen": true,
+    "selection": "last fixed-budget checkpoint; no closed-loop selection"
+  },
+  "checkpoint_sha256": "b31815edf5cbc3fb106772eaad6e3f1f95585b790a5dccf57bbb72eafa45b30e",
+  "validation_image_l1": 0.2072896659374237,
+  "validation_decision_mse": 0.002009716583415866,
+  "max_gradient": 0.9737033843994141,
+  "seconds": 7.602470001904294,
+  "interpretation": "offline validation only; method utility determined by paired closed-loop success"
+}

@@ -1,0 +1,3173 @@
+{
+  "new_episodes": 4000,
+  "reused_E04_episodes": 3200,
+  "table": [
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.18766828580294,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.63106062562438,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 93,
+      "final": 93,
+      "inference_seconds": 30.692466287449932,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 41,
+      "final": 41,
+      "inference_seconds": 31.167944632424042,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.954231151118876,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "exposure_oracle",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 89,
+      "final": 88,
+      "inference_seconds": 30.919198097125626,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.314332959782334,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 97,
+      "final": 97,
+      "inference_seconds": 30.93694101388799,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.389159890376032,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 96,
+      "final": 96,
+      "inference_seconds": 31.117260524567683,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.101709775435737,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 98,
+      "final": 98,
+      "inference_seconds": 31.075450444743037,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "inference_seconds": 31.62936990196351,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 85,
+      "final": 85,
+      "inference_seconds": 31.050439504915847,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "inference_seconds": 31.408598701828158,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 85,
+      "final": 85,
+      "inference_seconds": 31.23254841473652,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 41,
+      "final": 41,
+      "inference_seconds": 31.369031211617404,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 91,
+      "final": 91,
+      "inference_seconds": 31.10010054963175,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.046521377246826,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 93,
+      "final": 93,
+      "inference_seconds": 31.04826653184602,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.473338074279017,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 97,
+      "final": 97,
+      "inference_seconds": 30.732148883538322,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.45943549131509,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 96,
+      "final": 96,
+      "inference_seconds": 31.204318645887543,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "inference_seconds": 31.477261683163235,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 82,
+      "final": 82,
+      "inference_seconds": 31.074005357066635,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 39,
+      "final": 39,
+      "inference_seconds": 31.437024501538836,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 86,
+      "final": 86,
+      "inference_seconds": 31.285591949385125,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 42,
+      "final": 42,
+      "inference_seconds": 31.17613702311646,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 86,
+      "final": 86,
+      "inference_seconds": 31.017336438836065,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 30.980024593942797,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 96,
+      "final": 96,
+      "inference_seconds": 30.956736823818645,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.083266338566318,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 97,
+      "final": 97,
+      "inference_seconds": 31.15240199913969,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.526078510615044,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 96,
+      "final": 96,
+      "inference_seconds": 31.049812429412267,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 38,
+      "final": 38,
+      "inference_seconds": 31.286125783473253,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 81,
+      "final": 81,
+      "inference_seconds": 30.865083220715167,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 39,
+      "final": 39,
+      "inference_seconds": 31.34403177427128,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 87,
+      "final": 87,
+      "inference_seconds": 31.041711101059335,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 39,
+      "final": 39,
+      "inference_seconds": 31.211661593294703,
+      "reused_E04": true
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 87,
+      "final": 87,
+      "inference_seconds": 30.924533697245643,
+      "reused_E04": true
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 32.50352524885442,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 94,
+      "final": 94,
+      "inference_seconds": 31.374563894867897,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "inference_seconds": 31.767843803195284,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 83,
+      "final": 83,
+      "inference_seconds": 31.80229540583212,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.521247112960555,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 92,
+      "final": 92,
+      "inference_seconds": 31.338587018516847,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 42,
+      "final": 42,
+      "inference_seconds": 31.82549538417719,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 84,
+      "final": 84,
+      "inference_seconds": 31.675143861814867,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.40525336136576,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 94,
+      "final": 94,
+      "inference_seconds": 31.225296437949872,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "inference_seconds": 31.506011239984073,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 90,
+      "final": 90,
+      "inference_seconds": 31.351082678930833,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.414942614459434,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.4191934933234,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "clean",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.88975933166221,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "lowlight",
+      "episodes": 100,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.203445197734982,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.654269380471668,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.33679074760992,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.850139985759743,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.445405953442677,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 12,
+      "final": 12,
+      "inference_seconds": 31.14896334471181,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 10,
+      "final": 10,
+      "inference_seconds": 31.004851422831415,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 12,
+      "final": 12,
+      "inference_seconds": 31.133279203744607,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 14,
+      "final": 14,
+      "inference_seconds": 31.718215490109287,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 30.88347591037862,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 31.074315990088508,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 31.095582791035994,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.4657966381358,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 14,
+      "final": 14,
+      "inference_seconds": 31.32626424228307,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 16,
+      "final": 16,
+      "inference_seconds": 30.88406670485623,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 13,
+      "final": 13,
+      "inference_seconds": 31.275581133360973,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 13,
+      "final": 13,
+      "inference_seconds": 31.50925399530213,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.077272727591918,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.252936957105995,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 30.929353350596504,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.749894703649915,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 10,
+      "final": 10,
+      "inference_seconds": 31.09824691142887,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 12,
+      "final": 12,
+      "inference_seconds": 31.401715164277704,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 30.915908785550855,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 12,
+      "final": 12,
+      "inference_seconds": 32.02125652333256,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.711486587347462,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 2,
+      "final": 2,
+      "inference_seconds": 31.1066421376355,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.28065118554514,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "exposure_shift",
+      "episodes": 50,
+      "ever": 1,
+      "final": 1,
+      "inference_seconds": 31.506972140814177,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "inference_seconds": 30.846405233247207,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "inference_seconds": 31.08889976414852,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.008053746111692,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "inference_seconds": 31.46563422500156,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 37,
+      "final": 37,
+      "inference_seconds": 31.389639529003762,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 41,
+      "final": 41,
+      "inference_seconds": 31.056420380044727,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 42,
+      "final": 42,
+      "inference_seconds": 31.244849518337286,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "inference_seconds": 31.680458923983387,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "inference_seconds": 31.090052782879212,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.10269400473684,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.276137292669155,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 47,
+      "final": 47,
+      "inference_seconds": 31.26171979160048,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 39,
+      "final": 39,
+      "inference_seconds": 31.347157635954208,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 45,
+      "final": 45,
+      "inference_seconds": 31.249505159803665,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 43,
+      "final": 43,
+      "inference_seconds": 31.25288111462258,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 38,
+      "final": 38,
+      "inference_seconds": 31.28147831823677,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.038590008267203,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 48,
+      "final": 48,
+      "inference_seconds": 30.870603205692024,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 50,
+      "final": 50,
+      "inference_seconds": 31.05934134302661,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 49,
+      "final": 49,
+      "inference_seconds": 31.326374872643502,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "image",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 40,
+      "final": 40,
+      "inference_seconds": 31.262492559193632,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "feature",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 46,
+      "final": 46,
+      "inference_seconds": 31.12334105864633,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "decision",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 46,
+      "final": 46,
+      "inference_seconds": 31.273727569668555,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "arm": "retinex_finetune",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 44,
+      "final": 44,
+      "inference_seconds": 31.635406951317563,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.877876800480298,
+      "reused_E04": false
+    },
+    {
+      "task": "can",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 30.904187891022303,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "original",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.29488740529865,
+      "reused_E04": false
+    },
+    {
+      "task": "square",
+      "training_seed": null,
+      "arm": "retinex_pretrained",
+      "condition": "sensor_fpn",
+      "episodes": 50,
+      "ever": 0,
+      "final": 0,
+      "inference_seconds": 31.64154690030962,
+      "reused_E04": false
+    }
+  ],
+  "comparisons": [
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 5,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.21875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 5,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.21875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 5,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.21875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 5,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.21875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 1,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 1,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 1,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 1,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 3,
+      "losses": 0,
+      "delta_pp": 6.0,
+      "exact_two_sided_p": 0.25,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 3,
+      "losses": 0,
+      "delta_pp": 6.0,
+      "exact_two_sided_p": 0.25,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 3,
+      "losses": 1,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 3,
+      "losses": 1,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 0,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 0,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.5,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "can",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 0,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 14,
+      "losses": 6,
+      "delta_pp": 8.0,
+      "exact_two_sided_p": 0.11531829833984375,
+      "holm_adjusted_p": 0.6919097900390625
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 14,
+      "losses": 6,
+      "delta_pp": 8.0,
+      "exact_two_sided_p": 0.11531829833984375,
+      "holm_adjusted_p": 0.6919097900390625
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 3,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 3,
+      "losses": 1,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 3,
+      "delta_pp": -4.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 3,
+      "delta_pp": -4.0,
+      "exact_two_sided_p": 0.625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 2,
+      "delta_pp": 10.0,
+      "exact_two_sided_p": 0.1796875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 2,
+      "delta_pp": 10.0,
+      "exact_two_sided_p": 0.1796875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 6,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 6,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 4,
+      "losses": 5,
+      "delta_pp": -2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3072,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 4,
+      "losses": 5,
+      "delta_pp": -2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 12,
+      "losses": 10,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 0.8318119049072266,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 12,
+      "losses": 10,
+      "delta_pp": 2.0,
+      "exact_two_sided_p": 0.8318119049072266,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 3,
+      "delta_pp": -2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 3,
+      "delta_pp": -2.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 4,
+      "delta_pp": -6.0,
+      "exact_two_sided_p": 0.375,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 1,
+      "losses": 4,
+      "delta_pp": -6.0,
+      "exact_two_sided_p": 0.375,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 6,
+      "losses": 2,
+      "delta_pp": 8.0,
+      "exact_two_sided_p": 0.2890625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 6,
+      "losses": 2,
+      "delta_pp": 8.0,
+      "exact_two_sided_p": 0.2890625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 4,
+      "delta_pp": -4.0,
+      "exact_two_sided_p": 0.6875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 4,
+      "delta_pp": -4.0,
+      "exact_two_sided_p": 0.6875,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 8,
+      "losses": 3,
+      "delta_pp": 10.0,
+      "exact_two_sided_p": 0.2265625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3073,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 8,
+      "losses": 3,
+      "delta_pp": 10.0,
+      "exact_two_sided_p": 0.2265625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "external_primary",
+      "gains": 6,
+      "losses": 9,
+      "delta_pp": -3.0,
+      "exact_two_sided_p": 0.60723876953125,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "external_primary",
+      "gains": 6,
+      "losses": 9,
+      "delta_pp": -3.0,
+      "exact_two_sided_p": 0.60723876953125,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 9,
+      "delta_pp": -18.0,
+      "exact_two_sided_p": 0.00390625,
+      "holm_adjusted_p": 0.1328125
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 9,
+      "delta_pp": -18.0,
+      "exact_two_sided_p": 0.00390625,
+      "holm_adjusted_p": 0.1328125
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 11,
+      "delta_pp": -22.0,
+      "exact_two_sided_p": 0.0009765625,
+      "holm_adjusted_p": 0.03515625
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 11,
+      "delta_pp": -22.0,
+      "exact_two_sided_p": 0.0009765625,
+      "holm_adjusted_p": 0.03515625
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 11,
+      "delta_pp": -22.0,
+      "exact_two_sided_p": 0.0009765625,
+      "holm_adjusted_p": 0.03515625
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 0,
+      "losses": 11,
+      "delta_pp": -22.0,
+      "exact_two_sided_p": 0.0009765625,
+      "holm_adjusted_p": 0.03515625
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 1,
+      "delta_pp": 12.0,
+      "exact_two_sided_p": 0.0703125,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 7,
+      "losses": 1,
+      "delta_pp": 12.0,
+      "exact_two_sided_p": 0.0703125,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "exact_two_sided_p": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "family": "unseen_secondary",
+      "gains": 5,
+      "losses": 3,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.7265625,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "task": "square",
+      "training_seed": 3074,
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "family": "unseen_secondary",
+      "gains": 5,
+      "losses": 3,
+      "delta_pp": 4.0,
+      "exact_two_sided_p": 0.7265625,
+      "holm_adjusted_p": 1.0
+    }
+  ],
+  "aggregates": [
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "clean",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 0.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        1.0,
+        3.0,
+        0.0
+      ],
+      "mean_delta_pp": 1.3333333333333333,
+      "sample_sd_pp": 1.5275252316519468,
+      "conditional_state_cluster_interval_pp": [
+        -0.33333333333333326,
+        3.333333333333334
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        1.0,
+        3.0,
+        0.0
+      ],
+      "mean_delta_pp": 1.3333333333333333,
+      "sample_sd_pp": 1.5275252316519468,
+      "conditional_state_cluster_interval_pp": [
+        -0.33333333333333326,
+        3.333333333333334
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        -1.0,
+        -1.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 1.7320508075688772,
+      "conditional_state_cluster_interval_pp": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        -1.0,
+        -1.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 1.7320508075688772,
+      "conditional_state_cluster_interval_pp": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        4.0,
+        4.0,
+        2.0
+      ],
+      "mean_delta_pp": 3.3333333333333335,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -5.551115123125783e-17,
+        7.333333333333332
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        4.0,
+        4.0,
+        2.0
+      ],
+      "mean_delta_pp": 3.3333333333333335,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -5.551115123125783e-17,
+        7.333333333333332
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -1.3333333333333335,
+        2.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -1.3333333333333335,
+        2.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -1.333333333333333,
+        3.333333333333333
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -1.333333333333333,
+        3.333333333333333
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        2.0,
+        2.0
+      ],
+      "mean_delta_pp": 1.3333333333333333,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        3.333333333333333
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        2.0,
+        2.0
+      ],
+      "mean_delta_pp": 1.3333333333333333,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        3.333333333333333
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        4.0,
+        0.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        4.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        4.0,
+        0.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        4.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        0.0,
+        4.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        4.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        0.0,
+        4.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.0,
+        4.666666666666666
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        4.0,
+        6.0,
+        2.0
+      ],
+      "mean_delta_pp": 4.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.6666666666666665,
+        9.333333333333332
+      ]
+    },
+    {
+      "task": "can",
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        4.0,
+        6.0,
+        2.0
+      ],
+      "mean_delta_pp": 4.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        0.6666666666666665,
+        9.333333333333332
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        4.0,
+        2.0
+      ],
+      "mean_delta_pp": 2.6666666666666665,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -2.666666666666666,
+        8.0
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        4.0,
+        2.0
+      ],
+      "mean_delta_pp": 2.6666666666666665,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -2.666666666666666,
+        8.0
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        -4.0,
+        6.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 5.033222956847166,
+      "conditional_state_cluster_interval_pp": [
+        -3.9999999999999996,
+        5.333333333333332
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        -4.0,
+        6.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.6666666666666666,
+      "sample_sd_pp": 5.033222956847166,
+      "conditional_state_cluster_interval_pp": [
+        -3.9999999999999996,
+        5.333333333333332
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        0.0,
+        -2.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        -6.0,
+        6.0
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "clean",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        0.0,
+        -2.0
+      ],
+      "mean_delta_pp": 0.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        -6.0,
+        6.0
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        6.0,
+        4.0,
+        6.0
+      ],
+      "mean_delta_pp": 5.333333333333333,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -0.3333333333333332,
+        11.333333333333336
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        6.0,
+        4.0,
+        6.0
+      ],
+      "mean_delta_pp": 5.333333333333333,
+      "sample_sd_pp": 1.1547005383792515,
+      "conditional_state_cluster_interval_pp": [
+        -0.3333333333333332,
+        11.333333333333336
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 3.4641016151377544,
+      "conditional_state_cluster_interval_pp": [
+        -3.3333333333333326,
+        7.333333333333334
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 2.0,
+      "sample_sd_pp": 3.4641016151377544,
+      "conditional_state_cluster_interval_pp": [
+        -3.3333333333333326,
+        7.333333333333334
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        8.0,
+        2.0,
+        -3.0
+      ],
+      "mean_delta_pp": 2.3333333333333335,
+      "sample_sd_pp": 5.507570547286102,
+      "conditional_state_cluster_interval_pp": [
+        -2.3333333333333344,
+        7.333333333333335
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "lowlight",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        8.0,
+        2.0,
+        -3.0
+      ],
+      "mean_delta_pp": 2.3333333333333335,
+      "sample_sd_pp": 5.507570547286102,
+      "conditional_state_cluster_interval_pp": [
+        -2.3333333333333344,
+        7.333333333333335
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        0.0,
+        -2.0,
+        -18.0
+      ],
+      "mean_delta_pp": -6.666666666666667,
+      "sample_sd_pp": 9.865765724632494,
+      "conditional_state_cluster_interval_pp": [
+        -11.999999999999998,
+        -1.3333333333333335
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        0.0,
+        -2.0,
+        -18.0
+      ],
+      "mean_delta_pp": -6.666666666666667,
+      "sample_sd_pp": 9.865765724632494,
+      "conditional_state_cluster_interval_pp": [
+        -11.999999999999998,
+        -1.3333333333333335
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        4.0,
+        -6.0,
+        -22.0
+      ],
+      "mean_delta_pp": -8.0,
+      "sample_sd_pp": 13.114877048604,
+      "conditional_state_cluster_interval_pp": [
+        -13.333333333333332,
+        -2.666666666666666
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        4.0,
+        -6.0,
+        -22.0
+      ],
+      "mean_delta_pp": -8.0,
+      "sample_sd_pp": 13.114877048604,
+      "conditional_state_cluster_interval_pp": [
+        -13.333333333333332,
+        -2.666666666666666
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        -4.0,
+        0.0,
+        -22.0
+      ],
+      "mean_delta_pp": -8.666666666666666,
+      "sample_sd_pp": 11.718930554164631,
+      "conditional_state_cluster_interval_pp": [
+        -14.666666666666664,
+        -2.666666666666666
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "exposure_shift",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        -4.0,
+        0.0,
+        -22.0
+      ],
+      "mean_delta_pp": -8.666666666666666,
+      "sample_sd_pp": 11.718930554164631,
+      "conditional_state_cluster_interval_pp": [
+        -14.666666666666664,
+        -2.666666666666666
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        10.0,
+        8.0,
+        12.0
+      ],
+      "mean_delta_pp": 10.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        3.9999999999999996,
+        16.666666666666664
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "image",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        10.0,
+        8.0,
+        12.0
+      ],
+      "mean_delta_pp": 10.0,
+      "sample_sd_pp": 2.0,
+      "conditional_state_cluster_interval_pp": [
+        3.9999999999999996,
+        16.666666666666664
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        2.0,
+        -4.0,
+        0.0
+      ],
+      "mean_delta_pp": -0.6666666666666666,
+      "sample_sd_pp": 3.0550504633038935,
+      "conditional_state_cluster_interval_pp": [
+        -8.000000000000002,
+        7.333333333333332
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "feature",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        2.0,
+        -4.0,
+        0.0
+      ],
+      "mean_delta_pp": -0.6666666666666666,
+      "sample_sd_pp": 3.0550504633038935,
+      "conditional_state_cluster_interval_pp": [
+        -8.000000000000002,
+        7.333333333333332
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_ever",
+      "seed_deltas_pp": [
+        -2.0,
+        10.0,
+        4.0
+      ],
+      "mean_delta_pp": 4.0,
+      "sample_sd_pp": 6.0,
+      "conditional_state_cluster_interval_pp": [
+        -4.666666666666667,
+        13.333333333333336
+      ]
+    },
+    {
+      "task": "square",
+      "condition": "sensor_fpn",
+      "control": "retinex_finetune",
+      "field": "success_final",
+      "seed_deltas_pp": [
+        -2.0,
+        10.0,
+        4.0
+      ],
+      "mean_delta_pp": 4.0,
+      "sample_sd_pp": 6.0,
+      "conditional_state_cluster_interval_pp": [
+        -4.666666666666667,
+        13.333333333333336
+      ]
+    }
+  ],
+  "model_lock_sha256": "59cfd55a41ca2af705b8124a486cb751854a0d561619fbec311ab84c3f3fb0e9"
+}

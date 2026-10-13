@@ -1,0 +1,86 @@
+[
+  {
+    "task": "can",
+    "condition": "clean",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 152.88188884197734
+  },
+  {
+    "task": "can",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 156.42545785289258
+  },
+  {
+    "task": "lift",
+    "condition": "clean",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 153.0238161520101
+  },
+  {
+    "task": "lift",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 154.04465040797368
+  },
+  {
+    "task": "square",
+    "condition": "clean",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 151.48407701402903
+  },
+  {
+    "task": "square",
+    "condition": "shot_read_medium",
+    "successes": 1,
+    "episodes": 1,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 152.87524334085174
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "protocol": {
+    "task": "can",
+    "condition": "shot_read_medium",
+    "noise": {
+      "exposure": 1.0,
+      "gain": 0.008,
+      "read": 0.012,
+      "correlated": false
+    },
+    "episodes": 50,
+    "start_seed": 10000,
+    "max_steps": 400,
+    "checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "n_obs_steps": 2,
+    "n_action_steps": 8,
+    "inference_steps": 100,
+    "env_metadata": {
+      "type": 1,
+      "env_name": "PickPlaceCan",
+      "env_kwargs": {
+        "has_renderer": false,
+        "has_offscreen_renderer": false,
+        "ignore_done": true,
+        "use_object_obs": false,
+        "use_camera_obs": false,
+        "reward_shaping": false,
+        "control_freq": 20,
+        "controller_configs": {
+          "type": "OSC_POSE",
+          "input_max": 1,
+          "input_min": -1,
+          "output_max": [
+            0.05,
+            0.05,
+            0.05,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "output_min": [
+            -0.05,
+            -0.05,
+            -0.05,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "kp": 150,
+          "damping": 1,
+          "impedance_mode": "fixed",
+          "kp_limits": [
+            0,
+            300
+          ],
+          "damping_limits": [
+            0,
+            10
+          ],
+          "position_limits": null,
+          "orientation_limits": null,
+          "uncouple_pos_ori": true,
+          "control_delta": false,
+          "interpolation": null,
+          "ramp_ratio": 0.2
+        },
+        "robots": [
+          "Panda"
+        ],
+        "camera_names": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "camera_depths": false,
+        "camera_heights": 84,
+        "camera_widths": 84,
+        "hard_reset": false
+      }
+    },
+    "source": "published_diffusion_policy_transformer_train_0",
+    "sensor_claim": "synthetic sensor-inspired, not calibrated RAW",
+    "evaluator_sha256": "b92680f6725b2250be8252e7a625c75c9dabb72078d580fca7dad546f78a29d7",
+    "initialization": "explicit shared XML + float64 simulator state",
+    "state_bank_sha256": "9bd9daab3243c30f6010d0da745e452d9caf253337192c9833a5984f4f7e1576",
+    "state_bank_generator_sha256": "7ee69a47ddebdbbe56b562bbc1715811378285d6a8b99dac4d7f79fd7917d260",
+    "geometry_scope": "one fixed canonical geometry per task; independent robot/object reset states",
+    "episode_offset": 30,
+    "episode_count": 5,
+    "video_episodes": 2,
+    "parallel_wrapper_sha256": "a0ea952bec468d30f5e3c8100bf6aa6e1d3b234f2b9b1c70c15a25f2d010bbe0"
+  },
+  "success_rate": 1.0,
+  "final_success_rate": 1.0,
+  "successes": 5,
+  "episodes": 5,
+  "mean_episode_seconds": 116.3469768198207,
+  "current_run_seconds": 596.5750783840194,
+  "rows": [
+    {
+      "seed": 10030,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 105,
+      "steps": 400,
+      "wall_seconds": 119.44316709390841,
+      "inference_seconds": 31.729636329691857,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "cc1c754d4fec3980122655cf8106fe1876b501dd5e41cedc8952f9aa25c9be38",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "cdd72614852ae5638b50a3c9fc7b50264e25eda61475a7063c7185eb290ab958",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10031,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 139,
+      "steps": 400,
+      "wall_seconds": 116.19955029315315,
+      "inference_seconds": 30.485931050032377,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "7bffe8d94a174c2a7c6f4c3baacf746a87c8f996ffa68fc9499cb02fc5bd7a1a",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "2ecdaa3936a224eb7eb3a99d640f63714acb9c317eefbc885ff03ad9438b1569",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10032,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 108,
+      "steps": 400,
+      "wall_seconds": 114.50347136682831,
+      "inference_seconds": 29.54282089532353,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "368e0546b952d512ed4d783783cd4e8741e4b324d751de1a7df132320d3bbc7e",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "0e8df8fd302d9ee9542be84b01ae0d55bb69348e2dc46cdfa655230c17bc5412",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10033,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 98,
+      "steps": 400,
+      "wall_seconds": 116.03501807409339,
+      "inference_seconds": 30.36241501942277,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "8d7b2923dac323272b991647a84cdd954e6faf1d75d636e3940535d7ed9fcf5a",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "88649f054514a5f0d6f77de6fdd7d12b88cc94693328ed775535c6b0654717e8",
+      "initial_state_bank_max_abs_error": 0.0
+    },
+    {
+      "seed": 10034,
+      "success_ever": true,
+      "success_final": true,
+      "first_success_step": 107,
+      "steps": 400,
+      "wall_seconds": 115.55367727112025,
+      "inference_seconds": 31.276628269115463,
+      "task": "can",
+      "condition": "shot_read_medium",
+      "initial_state_sha256": "8736c03270a063095206453f88fe817ad853e969c844a80c13045da5f8106a6d",
+      "initial_model_sha256": "44689aaf042513b6a376131f5a054936eb91cd56950dab226d073782a8a45062",
+      "state_bank_entry_sha256": "61590ca11ce34d44da86e389a4680655f5e64baa9cd04b79f0e47ff97cee1356",
+      "initial_state_bank_max_abs_error": 2.220446049250313e-16
+    }
+  ]
+}

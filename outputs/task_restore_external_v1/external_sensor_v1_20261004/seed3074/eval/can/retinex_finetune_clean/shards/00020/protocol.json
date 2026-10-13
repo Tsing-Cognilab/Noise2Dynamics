@@ -1,0 +1,139 @@
+{
+  "task": "can",
+  "arm": "retinex_finetune",
+  "condition": "clean",
+  "training_seed": 3074,
+  "bank_episodes": 100,
+  "confirm_sources": {
+    "contract.py": "a27afeb05b5e91a06c2a512335165d8fda6c65f0fc4c92dbce4aeda56aa0492c",
+    "evaluate_confirm.py": "62676164686e6d436a0a3303f79f2e3889bbfbbf7465aa952bcf8f383af0e199",
+    "feature_train.py": "e296b4ebb4955453b617955a63ce5a54493b6c9e69c76d002f2238d3643df7fc",
+    "report.py": "d44241d969835dec1f964778fcc094e441887e05daf35c6a8b727bb1603c95ea",
+    "run_confirm.py": "67b328015671c328e396a0241fe23b2f1d5065dd68a9637752e45d2610516db9",
+    "test_confirm.py": "645b2a3e756f12fc9010edc1fe86d050c3f7fc1195251221fac785ee4954d0fb"
+  },
+  "external_sources": {
+    "analysis.py": "15966cb338edd735dd2a535365a7a0bba1387864fc7a5565c211a5f2eda2a01d",
+    "bootstrap.py": "6271e9cb97d5a96b9bab1a4785ab4a0ec003e02c337591b2d9467c41cc3ad761",
+    "evaluate_external.py": "e570bb769703d5ad6cca3812339ac5ebd704d495c601f8d896e304f85413013b",
+    "frontend.py": "63008d7ecc7beb77cf99389c5033f73408c406070363780db7abf0973619eb49",
+    "protocol.py": "179e8d4273651bb73390050fc5c84babee573240fc7255c9d1f5b31fdd0a2cb2",
+    "run_external.py": "647d342da95e9195c7e8ad48b9bb58fe95fa68a781f14278c434c00e2c913498",
+    "test_external.py": "61cea464fc2525664941d14b9a709fbc99fbd7c79d59db64c596bc36df4ace17",
+    "train_external.py": "306b89628f23dd695ae18d69e0f95fadc88cf5e0d000639a9d79c0082565ea9b",
+    "vendor/LICENSE.txt": "8c9e6d5a7b28e0fb08c5a4d0e72f582f514a2f2f1ab87a9e4fffa30e0dd4baf3",
+    "vendor/RetinexFormer_LOL_v1.yml": "a79b14dee5907708a1e81d4832b68c39adb12f0ca9f958e13c58590c5d9c46da",
+    "vendor/retinexformer_arch.py": "1567c89d55285a3c1a4d4ca33f288b1fd98dc6b6bbdf971eda02d745f9087631"
+  },
+  "noise": {
+    "exposure": 1.0,
+    "gain": 0.0,
+    "read": 0.0,
+    "fpn_std": 0.0
+  },
+  "episodes": 50,
+  "start_seed": 30000,
+  "offset": 20,
+  "count": 5,
+  "max_steps": 400,
+  "adapter_sha256": "f1af92d740329011c60b7fa946334e3ec24baa0d8c600e4821a24bbdd052a6ad",
+  "adapter_spec": {
+    "task": "can",
+    "arm": "retinex_finetune",
+    "seed": 3074,
+    "updates": 2000,
+    "batch_size": 16,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "identity_probability": 0.2,
+    "noise": {
+      "exposure": 0.25,
+      "gain": 0.004,
+      "read": 0.008,
+      "fpn_std": 0.0
+    },
+    "data_sha256": "6b7122056f1960c2ab4878f1f371dc2c9ab96936d49433fc8018f8fdc7e99c32",
+    "sources": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "external_sources": {
+      "analysis.py": "15966cb338edd735dd2a535365a7a0bba1387864fc7a5565c211a5f2eda2a01d",
+      "bootstrap.py": "6271e9cb97d5a96b9bab1a4785ab4a0ec003e02c337591b2d9467c41cc3ad761",
+      "evaluate_external.py": "e570bb769703d5ad6cca3812339ac5ebd704d495c601f8d896e304f85413013b",
+      "frontend.py": "63008d7ecc7beb77cf99389c5033f73408c406070363780db7abf0973619eb49",
+      "protocol.py": "179e8d4273651bb73390050fc5c84babee573240fc7255c9d1f5b31fdd0a2cb2",
+      "run_external.py": "647d342da95e9195c7e8ad48b9bb58fe95fa68a781f14278c434c00e2c913498",
+      "test_external.py": "61cea464fc2525664941d14b9a709fbc99fbd7c79d59db64c596bc36df4ace17",
+      "train_external.py": "306b89628f23dd695ae18d69e0f95fadc88cf5e0d000639a9d79c0082565ea9b",
+      "vendor/LICENSE.txt": "8c9e6d5a7b28e0fb08c5a4d0e72f582f514a2f2f1ab87a9e4fffa30e0dd4baf3",
+      "vendor/RetinexFormer_LOL_v1.yml": "a79b14dee5907708a1e81d4832b68c39adb12f0ca9f958e13c58590c5d9c46da",
+      "vendor/retinexformer_arch.py": "1567c89d55285a3c1a4d4ca33f288b1fd98dc6b6bbdf971eda02d745f9087631"
+    },
+    "assets": {
+      "repository": "https://github.com/caiyuanhao1998/Retinexformer",
+      "commit": "1e9a0efce4b306b6701b824768370ff26066c32a",
+      "official_folder": "https://drive.google.com/drive/folders/1ynK5hfQachzc8y96ZumhkPPDXzHJwaQV",
+      "weights": "LOL_v1.pth; chosen before robotic evaluation",
+      "files": {
+        "vendor/retinexformer_arch.py": {
+          "url": "https://raw.githubusercontent.com/caiyuanhao1998/Retinexformer/1e9a0efce4b306b6701b824768370ff26066c32a/basicsr/models/archs/RetinexFormer_arch.py",
+          "bytes": 12312,
+          "sha256": "1567c89d55285a3c1a4d4ca33f288b1fd98dc6b6bbdf971eda02d745f9087631"
+        },
+        "vendor/RetinexFormer_LOL_v1.yml": {
+          "url": "https://raw.githubusercontent.com/caiyuanhao1998/Retinexformer/1e9a0efce4b306b6701b824768370ff26066c32a/Options/RetinexFormer_LOL_v1.yml",
+          "bytes": 2752,
+          "sha256": "a79b14dee5907708a1e81d4832b68c39adb12f0ca9f958e13c58590c5d9c46da"
+        },
+        "vendor/LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/caiyuanhao1998/Retinexformer/1e9a0efce4b306b6701b824768370ff26066c32a/LICENSE.txt",
+          "bytes": 1068,
+          "sha256": "8c9e6d5a7b28e0fb08c5a4d0e72f582f514a2f2f1ab87a9e4fffa30e0dd4baf3"
+        },
+        "assets/LOL_v1.pth": {
+          "url": "https://drive.usercontent.google.com/download?id=1xDwQtTCj3tlAVCTJgYrzonBGVwqeOhKu&export=download&authuser=0&confirm=t",
+          "bytes": 6475021,
+          "sha256": "9b4810dc51322fab70be8658ee0ad1df64a54aa814497b7849767baa2ff32cd1"
+        }
+      },
+      "gt_mean": false,
+      "self_ensemble": false,
+      "architecture": {
+        "in_channels": 3,
+        "out_channels": 3,
+        "n_feat": 40,
+        "stage": 1,
+        "num_blocks": [
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    "parameters": 1605701,
+    "loss": "mean per-camera image L1",
+    "history": "independent per-frame network; same frozen policy temporal observations",
+    "selection": "last2000-update checkpoint; no policy loss, no closed-loop/model selection",
+    "pretraining": "official LOL-v1; extra external data/capacity, not matched initialization"
+  },
+  "policy_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+  "state_bank_sha256": "f237eadfcf54fbf3e26dd65e287fc6149684f386d141b986c8350c8f74d3e7bf",
+  "sources": {
+    "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+    "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+    "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+    "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+    "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+    "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+  },
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "inference_steps": 100,
+  "exposure_control": null
+}

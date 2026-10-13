@@ -1,0 +1,22 @@
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1/2000 loss=0.247238 seconds=0.7
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=100/2000 loss=0.026368 seconds=15.2
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=200/2000 loss=0.021847 seconds=29.9
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=300/2000 loss=0.023021 seconds=44.6
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=400/2000 loss=0.018426 seconds=59.2
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=500/2000 loss=0.018306 seconds=73.9
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=600/2000 loss=0.018306 seconds=88.6
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=700/2000 loss=0.013934 seconds=103.3
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=800/2000 loss=0.015910 seconds=118.0
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=900/2000 loss=0.014482 seconds=132.7
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1000/2000 loss=0.011806 seconds=147.4
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1100/2000 loss=0.016509 seconds=162.1
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1200/2000 loss=0.013810 seconds=176.7
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1300/2000 loss=0.013230 seconds=191.4
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1400/2000 loss=0.013017 seconds=206.0
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1500/2000 loss=0.012226 seconds=220.7
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1600/2000 loss=0.009306 seconds=235.3
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1700/2000 loss=0.012955 seconds=250.0
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1800/2000 loss=0.009446 seconds=264.6
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=1900/2000 loss=0.009923 seconds=279.3
+EXTERNAL_TRAIN_PROGRESS task=can seed=3072 update=2000/2000 loss=0.010604 seconds=293.9
+EXTERNAL_TRAIN_FINISHED can 3072

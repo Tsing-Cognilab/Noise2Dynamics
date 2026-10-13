@@ -1,0 +1,128 @@
+[
+  {
+    "task": "can",
+    "condition": "clean",
+    "successes": 50,
+    "episodes": 50,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.9286499658256813,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 114.81730008680374
+  },
+  {
+    "task": "can",
+    "condition": "lowlight",
+    "successes": 0,
+    "episodes": 50,
+    "success_rate": 0.0,
+    "final_success_rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.07135003417431873
+    ],
+    "paired_drop_from_clean": 1.0,
+    "mean_episode_seconds": 112.50233814959414
+  },
+  {
+    "task": "can",
+    "condition": "shot_read_medium",
+    "successes": 49,
+    "episodes": 50,
+    "success_rate": 0.98,
+    "final_success_rate": 0.98,
+    "wilson95": [
+      0.8950431352816304,
+      0.9964608319110235
+    ],
+    "paired_drop_from_clean": 0.02,
+    "mean_episode_seconds": 115.27931255188305
+  },
+  {
+    "task": "lift",
+    "condition": "clean",
+    "successes": 50,
+    "episodes": 50,
+    "success_rate": 1.0,
+    "final_success_rate": 0.56,
+    "wilson95": [
+      0.9286499658256813,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 109.69626989888494
+  },
+  {
+    "task": "lift",
+    "condition": "lowlight",
+    "successes": 37,
+    "episodes": 50,
+    "success_rate": 0.74,
+    "final_success_rate": 0.4,
+    "wilson95": [
+      0.6044657801100008,
+      0.8412862034863262
+    ],
+    "paired_drop_from_clean": 0.26,
+    "mean_episode_seconds": 110.30832679500338
+  },
+  {
+    "task": "lift",
+    "condition": "shot_read_medium",
+    "successes": 50,
+    "episodes": 50,
+    "success_rate": 1.0,
+    "final_success_rate": 0.66,
+    "wilson95": [
+      0.9286499658256813,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 110.58504777468275
+  },
+  {
+    "task": "square",
+    "condition": "clean",
+    "successes": 46,
+    "episodes": 50,
+    "success_rate": 0.92,
+    "final_success_rate": 0.92,
+    "wilson95": [
+      0.8116149745493629,
+      0.9684509967442093
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 111.34326419679914
+  },
+  {
+    "task": "square",
+    "condition": "lowlight",
+    "successes": 0,
+    "episodes": 50,
+    "success_rate": 0.0,
+    "final_success_rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.07135003417431873
+    ],
+    "paired_drop_from_clean": 0.92,
+    "mean_episode_seconds": 112.77195061420556
+  },
+  {
+    "task": "square",
+    "condition": "shot_read_medium",
+    "successes": 44,
+    "episodes": 50,
+    "success_rate": 0.88,
+    "final_success_rate": 0.88,
+    "wilson95": [
+      0.7619492111337642,
+      0.9438247628937535
+    ],
+    "paired_drop_from_clean": 0.04,
+    "mean_episode_seconds": 112.12769054726698
+  }
+]

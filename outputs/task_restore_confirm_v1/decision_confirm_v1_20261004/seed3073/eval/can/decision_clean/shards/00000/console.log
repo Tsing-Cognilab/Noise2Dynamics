@@ -1,0 +1,20 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_gripper_qpos', 'robot0_eef_pos', 'robot0_eef_quat']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created environment with name PickPlaceCan
+Action size is 7
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (252, 84) to (256, 96) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+METHOD_EPISODE_DONE task=can arm=decision condition=clean seed=30000 ever=1 final=1 seconds=116.4
+METHOD_EPISODE_DONE task=can arm=decision condition=clean seed=30001 ever=1 final=1 seconds=109.0
+METHOD_EPISODE_DONE task=can arm=decision condition=clean seed=30002 ever=1 final=1 seconds=114.1
+METHOD_EPISODE_DONE task=can arm=decision condition=clean seed=30003 ever=1 final=1 seconds=118.1
+METHOD_EPISODE_DONE task=can arm=decision condition=clean seed=30004 ever=1 final=1 seconds=115.9
+METHOD_EVAL_SHARD_FINISHED task=can arm=decision

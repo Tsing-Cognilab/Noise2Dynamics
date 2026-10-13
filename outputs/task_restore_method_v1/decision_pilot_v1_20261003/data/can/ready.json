@@ -1,0 +1,125 @@
+{
+  "spec": {
+    "task": "can",
+    "train_demos": 24,
+    "valid_demos": 4,
+    "stride": 4,
+    "limit_samples": 0,
+    "source_hdf5_sha256": "8bb8af420f97e7768f9d006d7162eb5af88fb2ac1671f693dc760e519f467b51",
+    "teacher_checkpoint_sha256": "07c24dd3ffc4a88a8b0b373b93154e6a9c01557a6f107e97b970517f9d792edb",
+    "method_code": {
+      "common.py": "16dc9f23aecca2e048f245756a4a257ed96a613999e939fd7e8ac038b2e4a426",
+      "evaluate_method.py": "f70f8240a0457624bb0b06b2818487a817721592ca139e8720c43dfba4e931cc",
+      "prepare_data.py": "4a14e815154dadfd42d92092f7003ce47230e003366bc4f878fd8181efed2219",
+      "run_method.py": "57eae3162ccf9363d24c4bcf9a274824fe5f594c5aa6838ecdae96626fd5d78a",
+      "test_method.py": "20b2c1277bddad4efcd3878c5a92a252ecd02543f42aab4a49c9b5e9eddfe450",
+      "train.py": "a039a7c9b3b7dd4afefbd54455288f7e637a0e240ba7d7dc9b968c9675387051"
+    },
+    "supervision": "paired simulator RGB; frozen clean teacher; no evaluation episodes used"
+  },
+  "split_demonstrations": {
+    "train": [
+      "demo_1",
+      "demo_2",
+      "demo_3",
+      "demo_4",
+      "demo_6",
+      "demo_7",
+      "demo_8",
+      "demo_9",
+      "demo_10",
+      "demo_11",
+      "demo_12",
+      "demo_13",
+      "demo_15",
+      "demo_16",
+      "demo_17",
+      "demo_18",
+      "demo_19",
+      "demo_20",
+      "demo_22",
+      "demo_23",
+      "demo_24",
+      "demo_25",
+      "demo_26",
+      "demo_28"
+    ],
+    "valid": [
+      "demo_0",
+      "demo_5",
+      "demo_14",
+      "demo_21"
+    ]
+  },
+  "samples": {
+    "train": 695,
+    "valid": 118
+  },
+  "files": {
+    "train": "99ba2bad5bfc314985b153dd18c85d3094607415883102a2c06c03174a73fadb",
+    "valid": "d31f2748bcba9c9a46238cbe86d2371c216ea62fa6426ffb4de1cdc7a69b5fe4"
+  },
+  "env_metadata": {
+    "type": 1,
+    "env_name": "PickPlaceCan",
+    "env_kwargs": {
+      "has_renderer": false,
+      "has_offscreen_renderer": false,
+      "ignore_done": true,
+      "use_object_obs": false,
+      "use_camera_obs": false,
+      "reward_shaping": false,
+      "control_freq": 20,
+      "controller_configs": {
+        "type": "OSC_POSE",
+        "input_max": 1,
+        "input_min": -1,
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "kp": 150,
+        "damping": 1,
+        "impedance_mode": "fixed",
+        "kp_limits": [
+          0,
+          300
+        ],
+        "damping_limits": [
+          0,
+          10
+        ],
+        "position_limits": null,
+        "orientation_limits": null,
+        "uncouple_pos_ori": true,
+        "control_delta": false,
+        "interpolation": null,
+        "ramp_ratio": 0.2
+      },
+      "robots": [
+        "Panda"
+      ],
+      "camera_names": [
+        "agentview",
+        "robot0_eye_in_hand"
+      ],
+      "camera_depths": false,
+      "camera_heights": 84,
+      "camera_widths": 84,
+      "hard_reset": false
+    }
+  },
+  "seconds": 426.0906507088803
+}

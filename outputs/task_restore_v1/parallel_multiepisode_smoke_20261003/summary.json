@@ -1,0 +1,30 @@
+[
+  {
+    "task": "lift",
+    "condition": "clean",
+    "successes": 4,
+    "episodes": 4,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.5100999795960008,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 23.996273081749678
+  },
+  {
+    "task": "lift",
+    "condition": "shot_read_medium",
+    "successes": 4,
+    "episodes": 4,
+    "success_rate": 1.0,
+    "final_success_rate": 1.0,
+    "wilson95": [
+      0.5100999795960008,
+      1.0
+    ],
+    "paired_drop_from_clean": 0.0,
+    "mean_episode_seconds": 24.821331805258524
+  }
+]

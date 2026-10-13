@@ -1,0 +1,15 @@
+TEST_SENSOR_OK repeatable, existing lowlight exact, persistent per-camera bias, no global structure
+COMPAT_TRAIN_OK parameters=1605701 batch=16 loss=0.255453 gradient=1.928092 seconds=0.365 peak_MiB=10297.3
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_eef_quat', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: ['robot0_eye_in_hand_image', 'agentview_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+COMPAT_POLICY_OK frozen DDPM100 obs2 action8 absolute10D; native84x84
+TEST_EXTERNAL_OK budget, causality, pretrained strict load, gradients, frozen policy, result rejection
